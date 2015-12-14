@@ -6,10 +6,29 @@ public class RusVerb {
     public static String getVerb(String[] words, byte time, byte prenoun, byte form, byte voice){
         //if times != future
         if(voice == 1){
-            if(time == 0)
-                return words[3] + "и";
-            if(time == 1)
-                return words[2] + "ют";
+            if(time == 0) {
+                if (prenoun == 0 || prenoun == 2 || prenoun == 3){
+                    return "был " + words[9];
+                } else if (prenoun == 1 || prenoun == 6){
+                    return "были " + words[9] + "ы";
+                } else if (prenoun == 4){
+                    return "была " + words[9] + "а";
+                } else if(prenoun == 5){
+                    return "было " + words[9] + "о";
+                }
+            }
+            if(time == 1){
+                if (prenoun == 0 || prenoun == 2 || prenoun == 3){
+                    return words[9];
+                } else if (prenoun == 1 || prenoun == 6){
+                    return words[9] + "ы";
+                } else if (prenoun == 4){
+                    return words[9] + "а";
+                } else if(prenoun == 5){
+                    return words[9] + "о";
+                }
+            }
+
         }
         if(time != 2) {
             //проверяю спряжение, если первое

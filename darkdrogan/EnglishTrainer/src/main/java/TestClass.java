@@ -6,8 +6,10 @@ import java.util.*;
 /**
  * Created by drogan on 28.11.15.
  */
-public class TestClass implements Times{
+public class TestClass{
+    //this array take strings
     private static String[] aWords;
+    //for entered answer
     private static String checkOutStr;
     private static Trainer trainer1;
 
@@ -17,23 +19,24 @@ public class TestClass implements Times{
         Random rand = new Random();
         aWords = takerWords.getWords();
 
-        trainer1 = new SimpleTrainer().getTrainer(takerWords.getWords());
-        aWords = trainer1.getCompleteWords();
-        System.out.println(trainer1.getStartPhrase());
-        shuffleMethod(aWords);
-        for(int i = 0; i < aWords.length; i++) {
-            if (i % 2 == 0)
-                System.out.println(aWords[i]);
-            checkOutStr = reader.readLine();
-            checkOut(checkOutStr, aWords[++i]);
+        for(int x = 0; x < 3; x++) {
+            trainer1 = new SimpleTrainer().getTrainer(takerWords.getWords());
+            aWords = trainer1.getCompleteWords();
+            System.out.println(trainer1.getStartPhrase());
+            shuffleMethod(aWords);
+            for (int i = 0; i < aWords.length; i++) {
+                if (i % 2 == 0)
+                    System.out.println(aWords[i]);
+                checkOutStr = reader.readLine();
+                checkOut(checkOutStr, aWords[++i]);
+            }
         }
-
 
         trainer1 = new IrVerbsTrainer().getTrainer(takerWords.getWords());
         aWords = trainer1.getCompleteWords();
         System.out.println(trainer1.getStartPhrase());
         shuffleMethod(aWords);
-        for(int i = 0; i < aWords.length; i++) {
+        for (int i = 0; i < aWords.length; i++) {
             if (i % 2 == 0)
                 System.out.println(aWords[i]);
             checkOutStr = reader.readLine();
@@ -41,10 +44,15 @@ public class TestClass implements Times{
         }
     }
 
+    //check entered string to array of right string - yeah! I know, my english is very bad
     private static void checkOut(String checkWord, String word){
         String s = word;
         checkWord = checkWord.replace("?", "").toLowerCase();
         word = word.replace("?", "").toLowerCase();
+        if(checkWord.contains("\'"))
+            checkWord = fullPhrase(checkWord);
+        if(word.contains("\'"))
+            word = fullPhrase(word);
         checkWord.trim();
         word.trim();
         if(word.equalsIgnoreCase(checkWord))
@@ -54,6 +62,33 @@ public class TestClass implements Times{
         }
     }
 
+    private static String fullPhrase(String phrase){
+        do{
+            if(phrase.contains("\'s")){
+                phrase = phrase.replace("\'s", " is");
+            }else if(phrase.contains("\'ll")){
+                phrase = phrase.replace("\'ll", " will");
+            }else if(phrase.contains("\'re")){
+                phrase = phrase.replace("\'re", " are");
+            }else if(phrase.contains("\'m")) {
+                phrase = phrase.replace("\'m", " am");
+            }else if(phrase.contains("won\'t")){
+                phrase = phrase.replace("won\'t", "will not");
+            }else if(phrase.contains("can\'t")) {
+                phrase = phrase.replace("\'t", " not");
+            }else if(phrase.contains("n\'t")) {
+                phrase = phrase.replace("n\'t", " not");
+            }else if(phrase.contains("\'ve")){
+                phrase = phrase.replace("\'ve", " have");
+            }else if(phrase.contains("\'d")) {
+                phrase = phrase.replace("\'d", " had");
+            }
+        }while(phrase.contains("\'"));
+        System.out.println(phrase);
+        return phrase;
+    }
+
+    //shuffle array for random order of couple strings
     private static String[] shuffleMethod(String[] words){
         int x = 0;
         int y = 0;
