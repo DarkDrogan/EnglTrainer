@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31200b1a-9490-4972-84f6-d5d011e0e4ea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ru.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/.idea/dictionaries/drogan.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/AdditionalVerbs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/EnglVerb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/IrVerbsTrainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/Prenoun.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/RusVerb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/SimpleTrainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/TestClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/Times.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/Trainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/src/main/java/Words.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/pom.xml" afterPath="$PROJECT_DIR$/darkdrogan/EnglishTrainer/pom.xml" />
     </list>
     <ignored path="ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +36,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5953307">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.66536963">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -539,6 +515,13 @@
       <option name="number" value="Default" />
       <updated>1449860079753</updated>
     </task>
+    <task id="LOCAL-00001" summary="some misc changes:&#10;1) project hierarchy&#10;2) pom.xml - some usefull packages&#10;3) .gitignore&#10;">
+      <created>1450634700358</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1450634700358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -573,6 +556,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="some misc changes:&#10;1) project hierarchy&#10;2) pom.xml - some usefull packages&#10;3) .gitignore&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="some misc changes:&#10;1) project hierarchy&#10;2) pom.xml - some usefull packages&#10;3) .gitignore&#10;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -600,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5953307">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.66536963">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
