@@ -1,3 +1,5 @@
+package darkdrogan.apps;
+
 import java.util.Random;
 /**
  * Created by drogan on 06.12.15.

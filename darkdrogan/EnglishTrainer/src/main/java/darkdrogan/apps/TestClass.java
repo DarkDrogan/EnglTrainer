@@ -1,3 +1,5 @@
+package darkdrogan.apps;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -24,18 +26,17 @@ public class TestClass{
             aWords = trainer1.getCompleteWords();
             System.out.println(trainer1.getStartPhrase());
             shuffleMethod(aWords);
-            for (int i = 0; i < aWords.length; i++) {
-                if (i % 2 == 0)
-                    System.out.println(aWords[i]);
-                checkOutStr = reader.readLine();
-                checkOut(checkOutStr, aWords[++i]);
-            }
+            prohod(reader);
         }
 
         trainer1 = new IrVerbsTrainer().getTrainer(takerWords.getWords());
         aWords = trainer1.getCompleteWords();
         System.out.println(trainer1.getStartPhrase());
         shuffleMethod(aWords);
+        prohod(reader);
+    }
+
+    private static void prohod(BufferedReader reader) throws IOException {
         for (int i = 0; i < aWords.length; i++) {
             if (i % 2 == 0)
                 System.out.println(aWords[i]);
