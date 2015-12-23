@@ -17,7 +17,7 @@ public class TestClass{
         Words takerWords = new Words();
         execute = new ExecutiveClass();
 
-        for(int x = 0; x < 1; x++) {
+        for(int x = 0; x < 3; x++) {
             trainer1 = new SimpleTrainer().getTrainer(takerWords.getWords());
             execute.getCompleteWords(trainer1);
             System.out.println(trainer1.getStartPhrase());

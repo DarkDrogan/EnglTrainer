@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by drogan on 20.12.15.
  */
-class ExecutiveClass {
+public class ExecutiveClass {
     private static String checkOutStr;
     private static String[] aWords;
 
