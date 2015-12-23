@@ -39,7 +39,7 @@ class Words {
     //String eat = "есть ем ест ел eat ate eaten 3 1";
 
     //f
-    private String fall = "падать падаю пада падал fall fell fallen 1 1 пал(";//!
+    private String fall = "падать падаю пада упал fall fell fallen 1 1 пал(";//!
     private String feel = "чувствовать чувствую чувству чувствовал feel felt felt 1 1 почувствован(";//!
     private String find = "находить нахожу наход находил find found found 2 1 найден";
     //сложное образование с "ся" в конце, плюс другое образование прошлого времени

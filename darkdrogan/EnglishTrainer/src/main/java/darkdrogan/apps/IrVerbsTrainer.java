@@ -26,12 +26,18 @@ public class IrVerbsTrainer implements Trainer, Times{
             prenoun2 = (byte) rand.nextInt(7);
             prenoun3 = (byte) rand.nextInt(7);
             byte timePas = (byte) rand.nextInt(2);
-            engl1 = Prenoun.getEnglPrenoun(prenoun1) + " " + EnglVerb.getVerb(words, PRESENT, prenoun1, ANSWER, ACTIVE);
-            engl2 = Prenoun.getEnglPrenoun(prenoun2) + " " + EnglVerb.getVerb(words, PAST, prenoun2, ANSWER, ACTIVE);
-            engl3 = Prenoun.getEnglPrenoun(prenoun3) + " " + AdditionalVerbs.getBe(timePas, prenoun3, ANSWER, PASSIVE) + " " + EnglVerb.getVerb(words, timePas, prenoun3, ANSWER, PASSIVE);
-            rus1 = Prenoun.getRusPrenoun(prenoun1) + " " + RusVerb.getVerb(words, PRESENT, prenoun1, ANSWER, ACTIVE);
-            rus2 = Prenoun.getRusPrenoun(prenoun2) + " " + RusVerb.getVerb(words, PAST, prenoun2, ANSWER, ACTIVE);
-            rus3 = Prenoun.getRusPrenoun(prenoun3) + " " + RusVerb.getVerb(words, timePas, prenoun3, ANSWER, PASSIVE);
+            engl1 = Prenoun.getEnglPrenoun(prenoun1) + " " + EnglVerb.getVerb(words, PRESENT, prenoun1,
+                    ANSWER, ACTIVE) + ".";
+            engl2 = Prenoun.getEnglPrenoun(prenoun2) + " " + EnglVerb.getVerb(words, PAST, prenoun2,
+                    ANSWER, ACTIVE) + ".";
+            engl3 = Prenoun.getEnglPrenoun(prenoun3) + " " + AdditionalVerbs.getHave(PRESENT, prenoun3,
+                    ANSWER, PASSIVE) + " " + EnglVerb.getVerb(words, timePas, prenoun3, ANSWER, PASSIVE);
+            rus1 = Prenoun.getRusPrenoun(prenoun1) + " " + RusVerb.getVerb(words, PRESENT, prenoun1,
+                    ANSWER, ACTIVE) + ".";
+            rus2 = Prenoun.getRusPrenoun(prenoun2) + " " + RusVerb.getVerb(words, PAST, prenoun2,
+                    ANSWER, ACTIVE) + ".";
+            rus3 = Prenoun.getRusPrenoun(prenoun3) + " " + RusVerb.getVerb(words, PAST, prenoun3,
+                    ANSWER, ACTIVE) + ". (Present Perfect)";
             completeWords[i++] = rus1;
             completeWords[i++] = engl1;
             completeWords[i++] = rus2;

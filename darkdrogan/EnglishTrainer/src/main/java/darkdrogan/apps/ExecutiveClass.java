@@ -31,7 +31,9 @@ public class ExecutiveClass {
     protected static void checkOut(String checkWord, String word){
         String s = word;
         checkWord = checkWord.replace("?", "").toLowerCase();
+        checkWord = checkWord.replace(".", "");
         word = word.replace("?", "").toLowerCase();
+        word = word.replace(".", "");
         if(checkWord.contains("\'"))
             checkWord = fullPhrase(checkWord);
         if(word.contains("\'"))
@@ -48,7 +50,8 @@ public class ExecutiveClass {
     protected static String fullPhrase(String phrase){
         do{
             if(phrase.contains("\'s")){
-                phrase = phrase.replace("\'s", " is");
+                //temporary he's = he has, but need make he's - he is, for context
+                phrase = phrase.replace("\'s", " has");
             }else if(phrase.contains("\'ll")){
                 phrase = phrase.replace("\'ll", " will");
             }else if(phrase.contains("\'re")){
