@@ -79,7 +79,7 @@ public class AdditionalVerbs {
         if(time == 0){
             word = "Did";
             if(form == 2)
-                word = "didn't";
+                word = "Didn't";
         }
         return word;
     }

@@ -11,7 +11,8 @@ import java.util.List;
  */
 public class ExecutiveClass {
     private static String checkOutStr;
-    private static String[] aWords;
+    //temporary for test changed on public. For final - change on private. Or do getter
+    public static String[] aWords;
 
     protected static void getCompleteWords(Trainer trainer){
         aWords = trainer.getCompleteWords();
@@ -61,7 +62,7 @@ public class ExecutiveClass {
             }else if(phrase.contains("won\'t")){
                 phrase = phrase.replace("won\'t", "will not");
             }else if(phrase.contains("can\'t")) {
-                phrase = phrase.replace("\'t", " not");
+                phrase = phrase.replace("can\'t", "can not");
             }else if(phrase.contains("n\'t")) {
                 phrase = phrase.replace("n\'t", " not");
             }else if(phrase.contains("\'ve")){
