@@ -1,11 +1,12 @@
-package darkdrogan.apps;
+package darkdrogan.apps.englTrainer;
 
+import darkdrogan.apps.englTrainer.AdditionalVerbs;
 import org.junit.*;
 import static org.junit.Assert.*;
 /**
  * Created by Drogan on 03.01.2016.
  */
-public class TestAdditionalVerbs {
+public class TestAdditionalVerbs implements Variables{
     AdditionalVerbs addVerb;
 
     @Before
@@ -20,7 +21,7 @@ public class TestAdditionalVerbs {
 
     @Test
     public void testGetHave(){
-        String had = addVerb.getHave((byte)0, (byte)3,(byte)0, (byte)0);
+        String had = addVerb.getHave(PAST, HE, ASK, ACTIVE);
         String have = addVerb.getHave((byte)1, (byte)2,(byte)0, (byte)0);
         String has1 = addVerb.getHave((byte)1, (byte)3,(byte)0, (byte)0);
         String has2 = addVerb.getHave((byte)1, (byte)4,(byte)0, (byte)0);

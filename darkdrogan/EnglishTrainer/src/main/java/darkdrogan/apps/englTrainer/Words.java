@@ -1,4 +1,4 @@
-package darkdrogan.apps;
+package darkdrogan.apps.englTrainer;
 
 import java.util.Random;
 /**
@@ -6,7 +6,7 @@ import java.util.Random;
  */
 class Words {
 
-
+//Array of the irregular verbs, may be changed to SQL or XML||JSon list for parsing
     //a
     private String arise = "поднимать поднимаю поднима поднимал arise arose arisen 1 1 поднят";
 
@@ -102,15 +102,23 @@ class Words {
     private String weep = "плакать плачу плач плакал weep wept wept 1 1 оплакан(";//!
     private String write = "писать пишу пиш писал write wrote written 1 1 написан";
 
+    //загоняет все переменные в массив, для удобства взятия рандомной строки.
     private String[] words = {arise, bind, bite, begin, aBreak, bring, aCatch, come, creep, cost, draw, drink, dream,
             feel, find, fall, forget, freeze, get, give, hear, hide, hurt, make, meet, show, take, think,
             lean, ride, say, see, seek, shoot, spit, spread, steal, strike, swell, weep, write};
 
     private String[] word = {"", "", "", "", "", "", "", "1", "1"};
 
+    //this getter take random word from array and split string on array for trainer and other rules of the trainer
     public String[] getWords(){
         Random rand = new Random();
         String[] e = words[rand.nextInt(words.length)].split(" ");
+        return e;
+    }
+
+    //new features for take concrete word - soon I'll take getter all irVerbs with number of string for concreteGetter
+    public String[] getWords(int i){
+        String[] e = words[i].split(" ");
         return e;
     }
 }

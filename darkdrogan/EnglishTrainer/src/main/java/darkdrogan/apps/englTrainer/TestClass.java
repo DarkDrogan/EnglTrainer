@@ -1,4 +1,4 @@
-package darkdrogan.apps;
+package darkdrogan.apps.englTrainer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,11 +8,11 @@ import java.io.InputStreamReader;
  * Created by drogan on 28.11.15.
  */
 public class TestClass{
-    //this array take strings
     private static Trainer trainer1;
     private static ExecutiveClass execute;
 
     public static void main(String[] args) throws IOException{
+        //for training into the console
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Words takerWords = new Words();
         execute = new ExecutiveClass();

@@ -1,4 +1,4 @@
-package darkdrogan.apps;
+package darkdrogan.apps.englTrainer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,16 +9,30 @@ import java.util.List;
 /**
  * Created by drogan on 20.12.15.
  */
+
+/**
+ * Execute class.
+ * It take array words, shuffling, casting to full form answer and check out user's answer.
+ */
 public class ExecutiveClass {
     private static String checkOutStr;
     //temporary for test changed on public. For final - change on private. Or do getter
     public static String[] aWords;
 
+    /**This method get array words from trainer and shuffle asks.
+     * Trainer already have words. If we take words from class Words - we'll have different set of words.
+     * @param trainer
+     */
     protected static void getCompleteWords(Trainer trainer){
         aWords = trainer.getCompleteWords();
         shuffleMethod(aWords);
     }
 
+    /**Method for test trainer in console
+     * This method take phrase and compare it with user's answers.
+     * @param reader
+     * @throws IOException
+     */
     protected static void prohod(BufferedReader reader) throws IOException {
         for (int i = 0; i < aWords.length; i++) {
             if (i % 2 == 0)
@@ -28,7 +42,8 @@ public class ExecutiveClass {
         }
     }
 
-    //check entered string to array of right string - yeah! I know, my english is very bad
+    //check entered string with right string(may be we need change logic for check with array right answers, cuz
+    // he's - he is and he has - it need pointed (see method fullPhrase too) - yeah! I know, my english is very bad
     protected static void checkOut(String checkWord, String word){
         String s = word;
         checkWord = checkWord.replace("?", "").toLowerCase();
@@ -48,6 +63,7 @@ public class ExecutiveClass {
         }
     }
 
+    //Do short phrase as full (убейте меня за мой английский) for example I'll do - I will do
     protected static String fullPhrase(String phrase){
         do{
             if(phrase.contains("\'s")){

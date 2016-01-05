@@ -1,8 +1,9 @@
-package darkdrogan.apps;
+package darkdrogan.apps.englTrainer;
 
+import darkdrogan.apps.englTrainer.ExecutiveClass;
+import darkdrogan.apps.englTrainer.SimpleTrainer;
+import darkdrogan.apps.englTrainer.Words;
 import org.junit.*;
-
-import java.io.BufferedReader;
 
 import static org.junit.Assert.*;
 /**

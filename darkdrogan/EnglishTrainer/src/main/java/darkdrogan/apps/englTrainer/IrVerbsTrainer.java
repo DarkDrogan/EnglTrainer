@@ -1,4 +1,4 @@
-package darkdrogan.apps;
+package darkdrogan.apps.englTrainer;
 
 import java.util.Random;
 
@@ -6,7 +6,7 @@ import java.util.Random;
  * Created by drogan on 05.12.15.
  */
 
-public class IrVerbsTrainer implements Trainer, Times{
+public class IrVerbsTrainer implements Trainer, Variables {
     private byte prenoun1, prenoun2, prenoun3;
     private String phrase;
     private String rus1, rus2, rus3, engl1, engl2, engl3;
