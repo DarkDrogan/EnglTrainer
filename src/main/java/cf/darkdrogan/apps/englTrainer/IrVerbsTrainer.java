@@ -1,4 +1,4 @@
-package darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer;
 
 import java.util.Random;
 

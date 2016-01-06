@@ -1,6 +1,6 @@
-package darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer;
 
-import darkdrogan.apps.englTrainer.AdditionalVerbs;
+import cf.darkdrogan.apps.englTrainer.AdditionalVerbs;
 import org.junit.*;
 import static org.junit.Assert.*;
 /**

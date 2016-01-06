@@ -1,8 +1,8 @@
-package darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer;
 
-import darkdrogan.apps.englTrainer.ExecutiveClass;
-import darkdrogan.apps.englTrainer.SimpleTrainer;
-import darkdrogan.apps.englTrainer.Words;
+import cf.darkdrogan.apps.englTrainer.ExecutiveClass;
+import cf.darkdrogan.apps.englTrainer.SimpleTrainer;
+import cf.darkdrogan.apps.englTrainer.Words;
 import org.junit.*;
 
 import static org.junit.Assert.*;

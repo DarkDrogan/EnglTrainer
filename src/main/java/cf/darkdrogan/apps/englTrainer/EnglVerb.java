@@ -1,4 +1,4 @@
-package darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer;
 
 /**
  * Created by drogan on 05.12.15.
@@ -25,7 +25,7 @@ public class EnglVerb implements Variables{
             if(time != PAST && form != ANSWER){
                 word = words[4];
             }
-            if(time == PAST && form == ANSWER){
+            if(time == PRESENT && form == ANSWER){
                 word = words[4];
                 if(prenoun == HE || prenoun == SHE || prenoun == IT){
                     word += "s";
