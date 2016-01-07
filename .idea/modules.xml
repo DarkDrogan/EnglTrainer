@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EnglishTrainer.iml" filepath="$PROJECT_DIR$/EnglishTrainer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/darkdrogan.apps.EnglTrainer.iml" filepath="$PROJECT_DIR$/.idea/darkdrogan.apps.EnglTrainer.iml" />
     </modules>
   </component>
 </project>
