@@ -145,18 +145,18 @@ public class RusVerb implements Variables{
             word = words[2];
             switch (prenoun) {
                 case I:
-                    word += "усь";
+                    word = words[1];
                     break;
                 case WE:
-                    word += "емся";
+                    word += "мся";
                     break;
                 case YOU:
-                    word += "ешься";
+                    word += "шься";
                     break;
                 case HE:
                 case SHE:
                 case IT:
-                    word += "ется";
+                    word += "тся";
                     break;
                 case THEY:
                     word += "утся";
