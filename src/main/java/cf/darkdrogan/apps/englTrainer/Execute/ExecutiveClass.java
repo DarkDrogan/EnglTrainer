@@ -1,4 +1,6 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.Execute;
+
+import cf.darkdrogan.apps.englTrainer.Trainer.Trainer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +25,7 @@ public class ExecutiveClass {
      * Trainer already have words. If we take words from class Words - we'll have different set of words.
      * @param trainer
      */
-    protected static void getCompleteWords(Trainer trainer){
+    public static void getCompleteWords(Trainer trainer){
         aWords = trainer.getCompleteWords();
         shuffleMethod(aWords);
     }
@@ -33,7 +35,7 @@ public class ExecutiveClass {
      * @param reader
      * @throws IOException
      */
-    protected static void prohod(BufferedReader reader) throws IOException {
+    public static void prohod(BufferedReader reader) throws IOException {
         for (int i = 0; i < aWords.length; i++) {
             if (i % 2 == 0)
                 System.out.println(aWords[i]);

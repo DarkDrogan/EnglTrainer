@@ -1,5 +1,10 @@
 package cf.darkdrogan.apps.englTrainer;
 
+import cf.darkdrogan.apps.englTrainer.Execute.ExecutiveClass;
+import cf.darkdrogan.apps.englTrainer.Trainer.IrVerbsTrainer;
+import cf.darkdrogan.apps.englTrainer.Trainer.SimpleTrainer;
+import cf.darkdrogan.apps.englTrainer.Trainer.Trainer;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

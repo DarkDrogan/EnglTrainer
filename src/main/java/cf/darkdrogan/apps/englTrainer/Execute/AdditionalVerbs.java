@@ -1,11 +1,13 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.Execute;
+
+import cf.darkdrogan.apps.englTrainer.Variables;
 
 /**
  * Created by drogan on 05.12.15.
  */
 
 //This class give another additional verb, for exapmle do, be, have
-public class AdditionalVerbs implements Variables{
+public class AdditionalVerbs implements Variables {
     private static String word;
 
     //getter for have

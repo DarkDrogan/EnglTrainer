@@ -1,12 +1,14 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.Execute;
 
+import cf.darkdrogan.apps.englTrainer.Variables;
+import cf.darkdrogan.apps.englTrainer.Words;
 import org.junit.*;
 
 import static org.junit.Assert.*;
 /**
  * Created by Drogan on 07.01.2016.
  */
-public class TestRusVerb implements Variables{
+public class TestRusVerb implements Variables {
     RusVerb verb;
     String[] words;
 

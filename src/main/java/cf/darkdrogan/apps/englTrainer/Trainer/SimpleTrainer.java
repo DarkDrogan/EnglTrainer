@@ -1,17 +1,23 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.Trainer;
+
+import cf.darkdrogan.apps.englTrainer.Execute.AdditionalVerbs;
+import cf.darkdrogan.apps.englTrainer.Execute.EnglVerb;
+import cf.darkdrogan.apps.englTrainer.Execute.Prenoun;
+import cf.darkdrogan.apps.englTrainer.Execute.RusVerb;
+import cf.darkdrogan.apps.englTrainer.Variables;
 
 import java.util.*;
 
 /**
  * Created by drogan on 05.12.15.
  */
-public class SimpleTrainer implements Trainer, Variables{
+public class SimpleTrainer implements Trainer, Variables {
     private Random rand;
     private String word;
     private String phrase;
     private static String[] completeWords;
 
-    SimpleTrainer(){}
+    public SimpleTrainer(){}
 
     SimpleTrainer(String[] words){
         rand = new Random();

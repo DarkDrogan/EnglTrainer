@@ -4,7 +4,7 @@ import java.util.Random;
 /**
  * Created by drogan on 06.12.15.
  */
-class Words {
+public class Words {
 
 //Array of the irregular verbs, may be changed to SQL or XML||JSon list for parsing
     //a
@@ -104,8 +104,8 @@ class Words {
 
     //загоняет все переменные в массив, для удобства взятия рандомной строки.
     private String[] words = {arise, bind, bite, begin, aBreak, bring, aCatch, come, creep, cost, draw, drink, dream,
-            feel, find, fall, forget, freeze, get, give, hear, hide, hurt, make, meet, show, take, think,
-            lean, ride, say, see, seek, shoot, spit, spread, steal, strike, swell, weep, write};
+            feel, find, fall, forget, freeze, get, give, hear, hide, hurt, lean, make, meet, ride, say, see, seek,
+            shoot, show, spit, spread, steal, strike, swell, take, think, weep, write};
 
     private String[] word = {"", "", "", "", "", "", "", "1", "1"};
 

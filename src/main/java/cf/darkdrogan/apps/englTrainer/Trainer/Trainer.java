@@ -1,4 +1,4 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.Trainer;
 
 /**
  * Created by drogan on 05.12.15.

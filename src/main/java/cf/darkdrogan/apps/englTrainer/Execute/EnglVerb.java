@@ -1,9 +1,11 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.Execute;
+
+import cf.darkdrogan.apps.englTrainer.Variables;
 
 /**
  * Created by drogan on 05.12.15.
  */
-public class EnglVerb implements Variables{
+public class EnglVerb implements Variables {
     static String word;
     //getter english verb
     public static String getVerb(String[] words, int time, int prenoun, int form, int voice){

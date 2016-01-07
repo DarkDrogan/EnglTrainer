@@ -1,4 +1,11 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.Trainer;
+
+import cf.darkdrogan.apps.englTrainer.Execute.AdditionalVerbs;
+import cf.darkdrogan.apps.englTrainer.Execute.EnglVerb;
+import cf.darkdrogan.apps.englTrainer.Execute.Prenoun;
+import cf.darkdrogan.apps.englTrainer.Execute.RusVerb;
+import cf.darkdrogan.apps.englTrainer.Variables;
+import cf.darkdrogan.apps.englTrainer.Words;
 
 import java.util.Random;
 
@@ -13,7 +20,7 @@ public class IrVerbsTrainer implements Trainer, Variables {
     private String[] completeWords;
 
     //for free start with .getTrainer()
-    IrVerbsTrainer(){}
+    public IrVerbsTrainer(){}
 
     IrVerbsTrainer(String[] words){
         Random rand = new Random();

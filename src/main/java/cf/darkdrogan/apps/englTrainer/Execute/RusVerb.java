@@ -1,9 +1,11 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.Execute;
+
+import cf.darkdrogan.apps.englTrainer.Variables;
 
 /**
  * Created by drogan on 30.11.15.
  */
-public class RusVerb implements Variables{
+public class RusVerb implements Variables {
     private static String word;
 
     //method returned rus verb in the needed form
@@ -40,6 +42,11 @@ public class RusVerb implements Variables{
         }
         //if active voice and not future time
         if(time != FUTURE) {
+            /*
+            * Тут есть проблема с тем же беру - выдает берю, они берут - берют
+            * В общем надо разбираться с алгоритмом русского языка
+            * Как то так
+            */
             //проверяю спряжение, если первое
             if (Byte.parseByte(words[7]) == 1) {
                 if (time == PRESENT) {

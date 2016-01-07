@@ -1,7 +1,6 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.Execute;
 
-import cf.darkdrogan.apps.englTrainer.ExecutiveClass;
-import cf.darkdrogan.apps.englTrainer.SimpleTrainer;
+import cf.darkdrogan.apps.englTrainer.Trainer.SimpleTrainer;
 import cf.darkdrogan.apps.englTrainer.Words;
 import org.junit.*;
 
