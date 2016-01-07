@@ -7,6 +7,9 @@ import java.util.Random;
 public class Words {
 
 //Array of the irregular verbs, may be changed to SQL or XML||JSon list for parsing
+    /*
+    * private String VERB = "rusInfinitive iDo rootDo rootDid firstVerb secondVerb typeWord RegularOrIrregular rusFormOf-be-verb+ed";
+    */
     //a
     private String arise = "поднимать поднимаю поднима поднимал arise arose arisen 1 1 поднят";
 
@@ -43,7 +46,7 @@ public class Words {
     private String feel = "чувствовать чувствую чувству чувствовал feel felt felt 1 1 почувствован(";//!
     private String find = "находить нахожу наход находил find found found 2 1 найден";
     //сложное образование с "ся" в конце, плюс другое образование прошлого времени
-    //String[] wordFight = {"драться", "дерусь", "дерешь", "дрался", "fight", "fought", "fought", "3", "1"};
+    String fight = "драться дерусь дер драл fight fought fought 4 1 побит";
     private String forget = "забывать забываю забыва забыл forget forgot forgotten 1 1 забыт";
     private String freeze = "замораживать замораживаю заморажива заморозил freeze froze frozen 1 1 заморожен";
 
@@ -95,7 +98,7 @@ public class Words {
     private String swell = "опухать опухаю опуха опух swell swelled swollen 1 1 опух(";//!
 
     //t
-    private String take = "брать беру бер брал take took taken 1 1 взят";
+    private String take = "брать беру бер брал take took taken 3 1 взят";
     private String think = "думать думаю дума думал think thought thought 1 1 обдуман(";//
 
     //w
@@ -104,7 +107,7 @@ public class Words {
 
     //загоняет все переменные в массив, для удобства взятия рандомной строки.
     private String[] words = {arise, bind, bite, begin, aBreak, bring, aCatch, come, creep, cost, draw, drink, dream,
-            feel, find, fall, forget, freeze, get, give, hear, hide, hurt, lean, make, meet, ride, say, see, seek,
+            fall, feel, find, fight, forget, freeze, get, give, hear, hide, hurt, lean, make, meet, ride, say, see, seek,
             shoot, show, spit, spread, steal, strike, swell, take, think, weep, write};
 
     private String[] word = {"", "", "", "", "", "", "", "1", "1"};
