@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31200b1a-9490-4972-84f6-d5d011e0e4ea" name="Default" comment="some misc changes:&#10;1) project hierarchy&#10;2) pom.xml - some usefull packages&#10;3) .gitignore&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestEnglVerb.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/TestEnglVerb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/AdditionalVerbs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/EnglVerb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/ExecutiveClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/IrVerbsTrainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Prenoun.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/RusVerb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/SimpleTrainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Trainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/TestAdditionalVerbs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/TestEnglVerb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/TestExecutiveClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/TestRusVerb.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/AdditionalVerbs.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/AdditionalVerbs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/EnglVerb.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/ExecutiveClass.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/IrVerbsTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer/IrVerbsTrainer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Prenoun.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/Prenoun.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/RusVerb.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/SimpleTrainer.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer/SimpleTrainer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer/Trainer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/TestAdditionalVerbs.java" afterPath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestAdditionalVerbs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/TestExecutiveClass.java" afterPath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestExecutiveClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/TestRusVerb.java" afterPath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestRusVerb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/TestClass.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/TestClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Words.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Words.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/Execute/TestRusVerb.class" afterPath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/Execute/TestRusVerb.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Words.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Words.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestRusVerb.java" afterPath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestRusVerb.java" />
     </list>
     <ignored path="ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,14 +30,50 @@
     <favorites_list name="ru" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21212122">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="docComment;class#TestClass#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnglVerb.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.78535354">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Words.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Words.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="205" column="94" selection-start-line="205" selection-start-column="94" selection-end-line="205" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RusVerb.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+              <folding>
+                <element signature="method#getVerb#0;class#RusVerb#0" expanded="false" />
+                <element signature="method#getPassiveVoiceVerb#0;class#RusVerb#0" expanded="false" />
+                <element signature="method#getFutureRusVerb#0;class#RusVerb#0" expanded="false" />
+                <element signature="method#getPastRusVerb#0;class#RusVerb#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -105,13 +119,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/TestEnglVerb.java" />
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/RusVerb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/SimpleTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer/IrVerbsTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java" />
         <option value="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestRusVerb.java" />
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Words.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/SimpleTrainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer/IrVerbsTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java" />
       </list>
     </option>
   </component>
@@ -183,8 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,10 +229,98 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Execute" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cf.darkdrogan.apps.EnglTrainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EnglTrainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cf.darkdrogan.apps.EnglTrainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EnglTrainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="englTrainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cf.darkdrogan.apps.EnglTrainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EnglTrainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="englTrainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Execute" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,32 +355,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="EnglishTrainer" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestEnglVerb.testGetVerb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cf.darkdrogan.apps.englTrainer.Execute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="EnglishTrainer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cf.darkdrogan.apps.englTrainer.Execute" />
-      <option name="MAIN_CLASS_NAME" value="cf.darkdrogan.apps.englTrainer.Execute.TestEnglVerb" />
-      <option name="METHOD_NAME" value="testGetVerb" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="TestEnglVerb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -358,6 +433,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cf.darkdrogan.apps.englTrainer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cf.darkdrogan.apps.englTrainer.Words" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="EnglishTrainer" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -644,18 +739,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.TestClass" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestEnglVerb.testGetVerb" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestEnglVerb" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestRusVerb" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestRusVerb.testGetVerb" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestEnglVerb" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestRusVerb" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestRusVerb.testGetVerb" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Words" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.TestClass" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestEnglVerb" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestRusVerb.testGetVerb" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestRusVerb" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestEnglVerb.testGetVerb" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Words" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestRusVerb" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestEnglVerb" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestRusVerb.testGetVerb" />
       </list>
     </recent_temporary>
   </component>
@@ -704,13 +799,19 @@
     <history-entry file="TestRusVerb - 2016.01.07 at 01h 53m 30s.xml">
       <configuration name="TestRusVerb" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRusVerb - 2016.01.08 at 01h 44m 33s.xml">
+      <configuration name="TestRusVerb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRusVerb - 2016.01.08 at 01h 45m 08s.xml">
+      <configuration name="TestRusVerb" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestRusVerb_testGetVerb - 2016.01.07 at 01h 53m 47s.xml">
       <configuration name="TestRusVerb.testGetVerb" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1380" height="742" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -722,7 +823,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33751962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2203514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2203514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -984,13 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dependency-reduced-pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1049,14 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4068376">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1069,7 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,37 +1166,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestRusVerb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Words.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestExecutiveClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,23 +1181,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4068376">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer/SimpleTrainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08585858">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.1161616">
+          <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#SimpleTrainer#1;class#SimpleTrainer#0" expanded="false" />
+            <element signature="method#getCompleteWords#1;class#SimpleTrainer#0" expanded="false" />
+            <element signature="method#getRus#0;class#SimpleTrainer#0" expanded="false" />
+            <element signature="method#getEngl#0;class#SimpleTrainer#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestRusVerb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+          <folding>
+            <element signature="method#getVerb#0;class#RusVerb#0" expanded="false" />
+            <element signature="method#getPassiveVoiceVerb#0;class#RusVerb#0" expanded="false" />
+            <element signature="method#getFutureRusVerb#0;class#RusVerb#0" expanded="false" />
+            <element signature="method#getPastRusVerb#0;class#RusVerb#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Words.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="94" selection-start-line="205" selection-start-column="94" selection-end-line="205" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21212122">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TestClass#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78535354">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>

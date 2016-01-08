@@ -15,7 +15,7 @@ public class TestRusVerb implements Variables {
     @Before
     public void startTest(){
         verb = new RusVerb();
-        words = new Words().getWords(13);
+        words = new Words().getWords(17);
     }
 
     @After

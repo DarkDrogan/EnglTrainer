@@ -30,6 +30,7 @@ public class EnglVerb implements Variables {
             if(time == PRESENT && form == ANSWER){
                 word = words[4];
                 if(prenoun == HE || prenoun == SHE || prenoun == IT){
+//добавить проверку на o и прочие, !Н go - goes, do - does
                     word += "s";
                 }
             }
