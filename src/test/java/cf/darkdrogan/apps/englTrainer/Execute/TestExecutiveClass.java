@@ -1,7 +1,8 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
 import cf.darkdrogan.apps.englTrainer.Trainer.SimpleTrainer;
-import cf.darkdrogan.apps.englTrainer.Words;
+import cf.darkdrogan.apps.englTrainer.StorageForWords.Words;
+import cf.darkdrogan.apps.englTrainer.StorageForWords.IrVerbWords;
 import org.junit.*;
 
 import static org.junit.Assert.*;
@@ -16,7 +17,7 @@ public class TestExecutiveClass {
 
     @Before
     public void startTest(){
-        aWords = new Words().getWords();
+        aWords = new IrVerbWords().getWords();
         exClass  = new ExecutiveClass();
     }
 
@@ -30,7 +31,7 @@ public class TestExecutiveClass {
     //for test ExecutiveClass.aWords temporary changed on public. For complete edition change on private,
     // or do getter and change on private
     public void testGetCompliteWords(){
-        takerWords = new Words();
+        takerWords = new IrVerbWords();
         exClass.getCompleteWords(new SimpleTrainer().getTrainer(takerWords.getWords()));
         assertNotNull(exClass.aWords);
     }

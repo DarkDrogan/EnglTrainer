@@ -1,6 +1,8 @@
 package cf.darkdrogan.apps.englTrainer;
 
 import cf.darkdrogan.apps.englTrainer.Execute.ExecutiveClass;
+import cf.darkdrogan.apps.englTrainer.StorageForWords.IrVerbWords;
+import cf.darkdrogan.apps.englTrainer.StorageForWords.Words;
 import cf.darkdrogan.apps.englTrainer.Trainer.IrVerbsTrainer;
 import cf.darkdrogan.apps.englTrainer.Trainer.SimpleTrainer;
 import cf.darkdrogan.apps.englTrainer.Trainer.Trainer;
@@ -19,7 +21,7 @@ public class TestClass{
     public static void main(String[] args) throws IOException{
         //for training into the console
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        Words takerWords = new Words();
+        Words takerWords = new IrVerbWords();
         execute = new ExecutiveClass();
 
         for(int x = 0; x < 3; x++) {

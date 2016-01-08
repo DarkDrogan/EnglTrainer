@@ -4,8 +4,8 @@ import cf.darkdrogan.apps.englTrainer.Execute.AdditionalVerbs;
 import cf.darkdrogan.apps.englTrainer.Execute.EnglVerb;
 import cf.darkdrogan.apps.englTrainer.Execute.Prenoun;
 import cf.darkdrogan.apps.englTrainer.Execute.RusVerb;
+import cf.darkdrogan.apps.englTrainer.StorageForWords.IrVerbWords;
 import cf.darkdrogan.apps.englTrainer.Variables;
-import cf.darkdrogan.apps.englTrainer.Words;
 
 import java.util.Random;
 
@@ -51,7 +51,7 @@ public class IrVerbsTrainer implements Trainer, Variables {
             completeWords[i++] = engl2;
             completeWords[i++] = rus3;
             completeWords[i++] = engl3;
-            words = new Words().getWords();
+            words = new IrVerbWords().getWords();
         }
     }
 

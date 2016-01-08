@@ -1,10 +1,10 @@
-package cf.darkdrogan.apps.englTrainer;
+package cf.darkdrogan.apps.englTrainer.StorageForWords;
 
 import java.util.Random;
 /**
  * Created by drogan on 06.12.15.
  */
-public class Words {
+public class IrVerbWords implements Words {
 
 //Array of the irregular verbs, may be changed to SQL or XML||JSon list for parsing
     /*

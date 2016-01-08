@@ -1,8 +1,8 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
 import cf.darkdrogan.apps.englTrainer.Execute.EnglVerb;
+import cf.darkdrogan.apps.englTrainer.StorageForWords.IrVerbWords;
 import cf.darkdrogan.apps.englTrainer.Variables;
-import cf.darkdrogan.apps.englTrainer.Words;
 import org.junit.*;
 
 import static org.junit.Assert.*;
@@ -17,7 +17,7 @@ public class TestEnglVerb implements Variables {
     public void startTest(){
         verb = new EnglVerb();
         //change again on words = feel. now it's 13 in array
-        words = new Words().getWords(13);
+        words = new IrVerbWords().getWords(13);
     }
 
     @After

@@ -1,7 +1,7 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
+import cf.darkdrogan.apps.englTrainer.StorageForWords.IrVerbWords;
 import cf.darkdrogan.apps.englTrainer.Variables;
-import cf.darkdrogan.apps.englTrainer.Words;
 import org.junit.*;
 
 import static org.junit.Assert.*;
@@ -15,7 +15,7 @@ public class TestRusVerb implements Variables {
     @Before
     public void startTest(){
         verb = new RusVerb();
-        words = new Words().getWords(17);
+        words = new IrVerbWords().getWords(17);
     }
 
     @After
