@@ -66,7 +66,7 @@ public class EnglVerb implements Variables {
                                 default:
                                     break;
                             }
-                        default:
+                        default: word += "s";
                             break;
                     }
                 }
