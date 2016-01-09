@@ -5,6 +5,7 @@ import cf.darkdrogan.apps.englTrainer.Variables;
 /**
  * Created by drogan on 05.12.15.
  */
+
 public class EnglVerb implements Variables {
     static String word;
     //getter english verb
@@ -30,8 +31,44 @@ public class EnglVerb implements Variables {
             if(time == PRESENT && form == ANSWER){
                 word = words[4];
                 if(prenoun == HE || prenoun == SHE || prenoun == IT){
-//добавить проверку на o и прочие, !Н go - goes, do - does
-                    word += "s";
+                    char[] x = word.toCharArray();
+                    switch(x[x.length-1]) {
+                        case 'z':
+                        case 'x':
+                        case 'o':
+                        case 's':
+                            word += "es";
+                            break;
+                        case 'h':
+                            if (x[x.length - 2] == 's' || x[x.length - 2] == 'c')
+                                word += "es";
+                            break;
+                        case 'y':
+                            switch (x[x.length - 2]) {
+                                case 'b':
+                                case 'c':
+                                case 'd':
+                                case 'f':
+                                case 'g':
+                                case 'h':
+                                case 'j':
+                                case 'k':
+                                case 'l':
+                                case 'm':
+                                case 'n':
+                                case 'p':
+                                case 'r':
+                                case 's':
+                                case 't':
+                                case 'x':
+                                case 'z':
+                                    word = word.replace("y", "ies");
+                                default:
+                                    break;
+                            }
+                        default:
+                            break;
+                    }
                 }
             }
         }//third form irregular verb, need to write regular verb - lately

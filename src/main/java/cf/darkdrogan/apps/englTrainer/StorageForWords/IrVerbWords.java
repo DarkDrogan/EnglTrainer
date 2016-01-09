@@ -228,4 +228,13 @@ public class IrVerbWords implements Words {
         String[] e = words[i].split(" ");
         return e;
     }
+
+    //for number of string ~_~
+    public static void main(String[] args){
+        IrVerbWords v = new IrVerbWords();
+        int i = 0;
+        for(String e : v.words){
+            System.out.println(i++ + " :" + e);
+        }
+    }
 }
