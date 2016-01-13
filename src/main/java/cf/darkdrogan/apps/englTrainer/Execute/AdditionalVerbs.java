@@ -127,4 +127,8 @@ public final class AdditionalVerbs implements Variables {
 
         return word;
     }
+
+    public static AdditionalVerbs getAddVerb(){
+        return new AdditionalVerbs();
+    }
 }

@@ -12,7 +12,7 @@ public class TestAdditionalVerbs implements Variables {
 
     @Before
     public void action(){
-        addVerb = new AdditionalVerbs();
+        addVerb = AdditionalVerbs.getAddVerb();
     }
 
     @After

@@ -22,7 +22,7 @@ public class TestClass{
         //for training into the console
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Words takerWords = new IrVerbWords();
-        execute = new ExecutiveClass();
+        execute = ExecutiveClass.getExec();
 
         for(int x = 0; x < 3; x++) {
             trainer1 = new SimpleTrainer().getTrainer(takerWords.getWords());

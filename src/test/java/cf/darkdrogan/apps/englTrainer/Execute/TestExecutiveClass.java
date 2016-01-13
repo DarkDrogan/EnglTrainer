@@ -18,7 +18,7 @@ public class TestExecutiveClass {
     @Before
     public void startTest(){
         aWords = new IrVerbWords().getWords();
-        exClass  = new ExecutiveClass();
+        exClass  = ExecutiveClass.getExec();
     }
 
     @After
@@ -33,7 +33,7 @@ public class TestExecutiveClass {
     public void testGetCompliteWords(){
         takerWords = new IrVerbWords();
         exClass.getCompleteWords(new SimpleTrainer().getTrainer(takerWords.getWords()));
-        assertNotNull(exClass.aWords);
+        assertNotNull(exClass.getaWords());
     }
 
     @Test

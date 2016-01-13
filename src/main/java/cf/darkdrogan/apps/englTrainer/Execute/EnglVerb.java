@@ -94,4 +94,8 @@ public final class EnglVerb implements Variables {
         }
         return word;
     }
+
+    public static EnglVerb getEnglVerb(){
+        return new EnglVerb();
+    }
 }

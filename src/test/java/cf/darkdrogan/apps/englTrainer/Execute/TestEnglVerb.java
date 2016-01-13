@@ -19,7 +19,7 @@ public class TestEnglVerb implements Variables {
 
     @Before
     public void startTest(){
-        verb = new EnglVerb();
+        verb = EnglVerb.getEnglVerb();
         IrVerbWords ir = new IrVerbWords();
         //change again on words = feel. now it's 13 in array
         wordsDo = ir.getWords(29);
