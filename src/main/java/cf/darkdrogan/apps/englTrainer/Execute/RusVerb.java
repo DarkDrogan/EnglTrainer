@@ -3,53 +3,83 @@ package cf.darkdrogan.apps.englTrainer.Execute;
 import cf.darkdrogan.apps.englTrainer.Variables;
 
 /**
- * Created by drogan on 30.11.15.
+ * Javadoc the description of class??
  */
-public final class RusVerb implements Variables{
+public final class RusVerb implements Variables {
     /**
-     * If this class is only a utility class, you should make the class final and define a private constructor:
+     * If this class is only a utility class you should make the class final and define a private constructor.
+     */
+    private RusVerb() {
+    }
+
+    /**
+     * ??
      */
     private static String word;
 
-    public static String getVerb(String[] words, int time, int prenoun, int form, int voice){
-        if(voice == PASSIVE){
+    /**
+     * Javadoc that.
+     * Notice
+     * @see EnglVerb, for example
+     * @param words ??
+     * @param time ??
+     * @param prenoun ??
+     * @param form ??
+     * @param voice ??
+     * @return ??
+     */
+    public static String getVerb(final String[] words, final int time, final int prenoun, final int form, final int voice) {
+        if (voice == PASSIVE) {
             getPassiveVoiceVerb(words, time, prenoun);
-        }else if(time == PAST){
+        } else if (time == PAST) {
             getPastRusVerb(words, prenoun);
-        }else if(time == FUTURE){
+        } else if (time == FUTURE) {
             getFutureRusVerb(words, prenoun);
-        }else {
+        } else {
             getPresentRusVerb(words, prenoun);
         }
         return word;
     }
 
-    private static void getPassiveVoiceVerb(String[] words, int time, int prenoun){
-        if(time == PAST) {
-            if (prenoun == I || prenoun == YOU || prenoun == HE){
+    /**
+     * Javadoc that.
+     * Notice
+     * @see EnglVerb, for example
+     * @param words ??
+     * @param time ??
+     * @param prenoun ??
+     */
+    private static void getPassiveVoiceVerb(final String[] words, final int time, final int prenoun) {
+        if (time == PAST) {
+            if (prenoun == I || prenoun == YOU || prenoun == HE) {
                 word = "был " + words[9];
-            } else if (prenoun == WE || prenoun == THEY){
+            } else if (prenoun == WE || prenoun == THEY) {
                 word = "были " + words[9] + "ы";
-            } else if (prenoun == SHE){
+            } else if (prenoun == SHE) {
                 word = "была " + words[9] + "а";
-            } else if(prenoun == IT){
+            } else if (prenoun == IT) {
                 word = "было " + words[9] + "о";
             }
         }
-        if(time == PRESENT){
-            if (prenoun == I || prenoun == YOU || prenoun == HE){
+        if (time == PRESENT) {
+            if (prenoun == I || prenoun == YOU || prenoun == HE) {
                 word = words[9];
-            } else if (prenoun == WE || prenoun == THEY){
+            } else if (prenoun == WE || prenoun == THEY) {
                 word = words[9] + "ы";
-            } else if (prenoun == SHE){
+            } else if (prenoun == SHE) {
                 word = words[9] + "а";
-            } else if(prenoun == IT){
+            } else if (prenoun == IT) {
                 word = words[9] + "о";
             }
         }
     }
 
-    private static void getFutureRusVerb(String[] words, int prenoun){
+    /**
+     * Javadoc that.
+     * @param words ??
+     * @param prenoun ??
+     */
+    private static void getFutureRusVerb(final String[] words, final int prenoun) {
         word = words[0];
         switch (prenoun) {
             case I:
@@ -74,8 +104,13 @@ public final class RusVerb implements Variables{
         }
     }
 
-    private static void getPresentRusVerb(String[] words, int prenoun){
-        if(Integer.parseInt(words[7]) == 1){
+    /**
+     * Javadoc that.
+     * @param words ??
+     * @param prenoun ??
+     */
+    private static void getPresentRusVerb(final String[] words, final int prenoun) {
+        if (Integer.parseInt(words[7]) == 1) {
             word = words[2];
             switch (prenoun) {
                 case I:
@@ -98,7 +133,7 @@ public final class RusVerb implements Variables{
                 default:
                     break;
             }
-        }else if(Integer.parseInt(words[7]) == 2){
+        } else if (Integer.parseInt(words[7]) == 2) {
             word = words[2];
             switch (prenoun) {
                 case I:
@@ -121,7 +156,7 @@ public final class RusVerb implements Variables{
                 default:
                     break;
             }
-        }else if(Integer.parseInt(words[7]) == 3){
+        } else if (Integer.parseInt(words[7]) == 3) {
             word = words[2];
             switch (prenoun) {
                 case I:
@@ -144,7 +179,7 @@ public final class RusVerb implements Variables{
                 default:
                     break;
             }
-        }else{
+        } else {
             word = words[2];
             switch (prenoun) {
                 case I:
@@ -170,8 +205,13 @@ public final class RusVerb implements Variables{
         }
     }
 
-    private static void getPastRusVerb(String[] words, int prenoun){
-        if(Integer.parseInt(words[7]) == 1){
+    /**
+     * Javadoc that.
+     * @param words ??
+     * @param prenoun ??
+     */
+    private static void getPastRusVerb(final String[] words, final int prenoun) {
+        if (Integer.parseInt(words[7]) == 1) {
             word = words[3];
             switch (prenoun) {
                 case I:
@@ -195,7 +235,7 @@ public final class RusVerb implements Variables{
                 default:
                     break;
             }
-        }else if(Integer.parseInt(words[7]) == 2){
+        } else if (Integer.parseInt(words[7]) == 2) {
             word = words[3];
             switch (prenoun) {
                 case I:
@@ -219,7 +259,7 @@ public final class RusVerb implements Variables{
                 default:
                     break;
             }
-        }else if(Integer.parseInt(words[7]) == 3){
+        } else if (Integer.parseInt(words[7]) == 3) {
             word = words[3];
             switch (prenoun) {
                 case I:
@@ -243,7 +283,7 @@ public final class RusVerb implements Variables{
                 default:
                     break;
             }
-        }else{
+        } else {
             word = words[3];
             switch (prenoun) {
                 case I:
