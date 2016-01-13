@@ -1,29 +1,50 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
+import java.util.ArrayList;
+
 /**
- * Created by drogan on 05.12.15.
+ * Prenoun class.
  */
 public final class Prenoun {
     /**
-     * If this class is only a utility class, you should make the class final and define a private constructor:
+     * If this class is only a utility class,
+     * you should make the class final and define a private constructor.
      */
     private Prenoun() {
     }
 
     //создаем массив, который инициализируется местоимениями в конструкторе
-    private static String[] prenoun = new String[7];
-    private static String[] englPrenoun = new String[7];
-    private static String[] pasPrenoun = new String[7];
+    // Notice: javadoc the variables:
+    /**
+     * No magic numbers.
+     */
+    private final int size = 7;
+    /**
+     * ??
+     */
+    private static ArrayList<String> prenoun = new ArrayList<String>(size);
+    /**
+     * ??
+     */
+    private static String[] englPrenoun = new String[size];
+    /**
+     * ??
+     */
+    private static String[] pasPrenoun = new String[size];
 
-    //initialize array with prenoun
-    static{
-        prenoun[0] = "Я";
-        prenoun[1] = "Мы";
-        prenoun[2] = "Ты";
-        prenoun[3] = "Он";
-        prenoun[4] = "Она";
-        prenoun[5] = "Оно";
-        prenoun[6] = "Они";
+    // initialize array with prenoun
+    // bad block. should be ArrayList imho.
+    // sample below
+
+    static {
+
+        prenoun.add("Я");
+        prenoun.add("Мы");
+        prenoun.add("Ты");
+        prenoun.add("Он");
+        prenoun.add("Она");
+        prenoun.add("Оно");
+        prenoun.add("Они");
         pasPrenoun[0] = "Меня";
         pasPrenoun[1] = "Нас";
         pasPrenoun[2] = "Тебя";
@@ -40,19 +61,30 @@ public final class Prenoun {
         englPrenoun[6] = "They";
     }
 
-    //получаем нужную форму местоимения
-    public static String getRusPrenoun(int numberPrenoun)
-    {
-        return prenoun[numberPrenoun];
+    /**
+     * Resturns right form of prenoun.
+     * @param numberPrenoun prenoun number
+     * @return Prenoun form
+     */
+    public static String getRusPrenoun(final int numberPrenoun) {
+        return prenoun.get(numberPrenoun);
     }
 
-    public static String getRusPasPrenoun(int numberPasPrenoun)
-    {
+    /**
+     * What does it do?
+     * @param numberPasPrenoun ??
+     * @return ??
+     */
+    public static String getRusPasPrenoun(final int numberPasPrenoun) {
         return pasPrenoun[numberPasPrenoun];
     }
 
-    public static String getEnglPrenoun(int numberPrenoun)
-    {
+    /**
+     * What does it do?
+     * @param numberPrenoun ??
+     * @return ??
+     */
+    public static String getEnglPrenoun(final int numberPrenoun) {
         return englPrenoun[numberPrenoun];
     }
 }
