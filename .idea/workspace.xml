@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31200b1a-9490-4972-84f6-d5d011e0e4ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/AdditionalVerbs.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/AdditionalVerbs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/Prenoun.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/Prenoun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/TestClass.class" afterPath="$PROJECT_DIR$/target/classes/cf/darkdrogan/apps/englTrainer/TestClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/Execute/TestAdditionalVerbs.class" afterPath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/Execute/TestAdditionalVerbs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/Execute/TestEnglVerb.class" afterPath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/Execute/TestEnglVerb.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/Execute/TestExecutiveClass.class" afterPath="$PROJECT_DIR$/target/test-classes/cf/darkdrogan/apps/englTrainer/Execute/TestExecutiveClass.class" />
+    <list default="true" id="31200b1a-9490-4972-84f6-d5d011e0e4ea" name="Default" comment="InVerb checkstyled.&#10;See the notes!&#10;We should about excluding these amount of strings.&#10;I made a template for JSON in resources, check it.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/AdditionalVerbs.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/AdditionalVerbs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestAdditionalVerbs.java" afterPath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestAdditionalVerbs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestEnglVerb.java" afterPath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestEnglVerb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestExecutiveClass.java" afterPath="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestExecutiveClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/StorageForWords/IrVerbWords.java" afterPath="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/StorageForWords/IrVerbWords.java" />
     </list>
     <ignored path="ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,61 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IrVerbWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/StorageForWords/IrVerbWords.java">
+      <file leaf-file-name="RusVerb.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleTrainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer/SimpleTrainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
-                <element signature="method#getCompleteWords#1;class#SimpleTrainer#0" expanded="false" />
-                <element signature="method#getRus#0;class#SimpleTrainer#0" expanded="false" />
-                <element signature="method#getEngl#0;class#SimpleTrainer#0" expanded="false" />
+                <element signature="method#RusVerb#0;class#RusVerb#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestEnglVerb.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestEnglVerb.java">
+      <file leaf-file-name="IrVerbWords.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/StorageForWords/IrVerbWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Prenoun.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/Prenoun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="111" selection-start-line="7" selection-start-column="111" selection-end-line="7" selection-end-column="111" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutiveClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6979866">
-              <caret line="163" column="43" selection-start-line="163" selection-start-column="43" selection-end-line="163" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.63484085">
+              <caret line="236" column="35" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5318#5327#0" expanded="true" />
-                <element signature="e#5757#5758#0" expanded="true" />
-                <element signature="e#5786#5787#0" expanded="true" />
-                <element signature="e#5956#5957#0" expanded="true" />
+                <element signature="e#15086#15087#0" expanded="true" />
+                <element signature="e#15128#15129#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,9 +101,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer/IrVerbsTrainer.java" />
         <option value="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestRusVerb.java" />
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Words.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/Prenoun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/StorageForWords/IrVerbWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/AdditionalVerbs.java" />
         <option value="$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestAdditionalVerbs.java" />
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java" />
@@ -162,6 +109,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/Prenoun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/StorageForWords/IrVerbWords.java" />
       </list>
     </option>
   </component>
@@ -831,7 +781,25 @@
       <option name="project" value="LOCAL" />
       <updated>1452649272983</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Executive checkstyled.&#10;See the notes!">
+      <created>1452652345690</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1452652345690</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Prenoun checkstyled.&#10;See the notes!">
+      <created>1452653159092</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1452653159092</updated>
+    </task>
+    <task id="LOCAL-00009" summary="RusVerb checkstyled.&#10;See the notes!">
+      <created>1452653720865</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1452653720865</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -869,13 +837,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33655915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21991481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -909,7 +877,11 @@
     <MESSAGE value="If this class is only a utility class, you should make the class final and define a private constructor" />
     <MESSAGE value="AdditionalVerbs checkstyled" />
     <MESSAGE value="EnglVerb checkstyled" />
-    <option name="LAST_COMMIT_MESSAGE" value="EnglVerb checkstyled" />
+    <MESSAGE value="Executive checkstyled.&#10;See the notes!" />
+    <MESSAGE value="Prenoun checkstyled.&#10;See the notes!" />
+    <MESSAGE value="RusVerb checkstyled.&#10;See the notes!" />
+    <MESSAGE value="InVerb checkstyled.&#10;See the notes!&#10;We should about excluding these amount of strings.&#10;I made a template for JSON in resources, check it." />
+    <option name="LAST_COMMIT_MESSAGE" value="InVerb checkstyled.&#10;See the notes!&#10;We should about excluding these amount of strings.&#10;I made a template for JSON in resources, check it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1191,19 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27181208">
-          <caret line="9" column="111" selection-start-line="9" selection-start-column="111" selection-end-line="9" selection-end-column="111" />
-          <folding>
-            <element signature="method#getVerb#0;class#RusVerb#0" expanded="false" />
-            <element signature="method#getPassiveVoiceVerb#0;class#RusVerb#0" expanded="false" />
-            <element signature="method#getFutureRusVerb#0;class#RusVerb#0" expanded="false" />
-            <element signature="method#getPastRusVerb#0;class#RusVerb#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Trainer/Trainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1243,23 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
-          <folding>
-            <element signature="docComment;class#EnglVerb#0" expanded="false" />
-            <element signature="docComment;method#EnglVerb#0;class#EnglVerb#0" expanded="false" />
-            <element signature="method#EnglVerb#0;class#EnglVerb#0" expanded="false" />
-            <element signature="docComment;field#word#0;class#EnglVerb#0" expanded="false" />
-            <element signature="docComment;method#getVerb#0;class#EnglVerb#0" expanded="false" />
-            <element signature="method#getVerb#0;class#EnglVerb#0" expanded="false" />
-            <element signature="e#3449#3450#0" expanded="true" />
-            <element signature="e#3486#3487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cf/darkdrogan/apps/englTrainer/Execute/TestExecutiveClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.8237288">
@@ -1276,14 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/Prenoun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="111" selection-start-line="7" selection-start-column="111" selection-end-line="7" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.75503355">
@@ -1291,14 +1225,6 @@
           <folding>
             <element signature="docComment;class#TestClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/StorageForWords/IrVerbWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,16 +1245,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/Prenoun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="docComment;class#Prenoun#0" expanded="false" />
+            <element signature="docComment;method#Prenoun#0;class#Prenoun#0" expanded="false" />
+            <element signature="method#Prenoun#0;class#Prenoun#0" expanded="false" />
+            <element signature="e#572#580#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/ExecutiveClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6979866">
-          <caret line="163" column="43" selection-start-line="163" selection-start-column="43" selection-end-line="163" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.33221477">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5318#5327#0" expanded="true" />
-            <element signature="e#5757#5758#0" expanded="true" />
-            <element signature="e#5786#5787#0" expanded="true" />
-            <element signature="e#5956#5957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/EnglVerb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48322147">
+          <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#EnglVerb#0" expanded="false" />
+            <element signature="docComment;method#EnglVerb#0;class#EnglVerb#0" expanded="false" />
+            <element signature="method#EnglVerb#0;class#EnglVerb#0" expanded="false" />
+            <element signature="docComment;field#word#0;class#EnglVerb#0" expanded="false" />
+            <element signature="docComment;method#getVerb#0;class#EnglVerb#0" expanded="false" />
+            <element signature="method#getVerb#0;class#EnglVerb#0" expanded="false" />
+            <element signature="e#3449#3450#0" expanded="true" />
+            <element signature="e#3486#3487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/Execute/RusVerb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="method#RusVerb#0;class#RusVerb#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cf/darkdrogan/apps/englTrainer/StorageForWords/IrVerbWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63484085">
+          <caret line="236" column="35" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
+          <folding>
+            <element signature="e#15086#15087#0" expanded="true" />
+            <element signature="e#15128#15129#0" expanded="true" />
           </folding>
         </state>
       </provider>

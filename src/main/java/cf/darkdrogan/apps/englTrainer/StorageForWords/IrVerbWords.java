@@ -1,8 +1,9 @@
 package cf.darkdrogan.apps.englTrainer.StorageForWords;
 
 import java.util.Random;
+
 /**
- * Created by drogan on 06.12.15.
+ * ??
  */
 public class IrVerbWords implements Words {
 
@@ -12,7 +13,7 @@ public class IrVerbWords implements Words {
     */
     //a
     private String arise = "поднимать поднимаю поднима поднимал arise arose arisen 1 1 поднят";
-    private String awake = "просыпаться просыпаюсь просыпае проснулся awake awoke awoke 4 1 проснулся(страдательное)";//
+    private String awake = "просыпаться просыпаюсь просыпае проснулся awake awoke awoke 4 1 проснулся(страдательное)";
 
     //b
     //exception
@@ -27,7 +28,7 @@ public class IrVerbWords implements Words {
     private String bind = "связывать связываю связыва связал bind bound bound 1 1 связан";
     private String bite = "кусать кусаю куса кусал bite bit bitten 1 1 укушен";
     private String blow = "дуть дую ду дул blow blew blown 1 1 надут";
-    private String bleed = "кровоточить кровоточу кровоточ кровоточил bleed bled bled 2 1 кровоточен(кровоточить)";//я люблю русский язык
+    private String bleed = "кровоточить кровоточу кровоточ кровоточил bleed bled bled 2 1 кровоточен(кровоточить)"; //я люблю русский язык
     private String aBreak = "разбивать разбиваю разбива разбил break broke broken 1 1 разбит";
     private String breed = "выводить вывожу вывод вывел breed bred bred 2 1 выведен";
     private String bring = "нести несу нес нес bring brought brought 1 1 отнесен";
@@ -44,15 +45,15 @@ public class IrVerbWords implements Words {
     private String cling = "прилипать прилипаю прилипа прилипал cling clung clung 1 1 прилеплен";
     private String come = "приходить прихожу приход приходил come came come 2 1 пройден";
     private String cost = "стоить стою сто стоил cost cost cost 2 1 оценен";
-    private String creep = "ползать ползу полз ползал creep crept crept 1 1 дотащен(ползти)";//!
+    private String creep = "ползать ползу полз ползал creep crept crept 1 1 дотащен(ползти)"; //!
 
     //d
     private String aDo = "делать делаю дела делал do did done 1 1 сделан";
     private String deal = "торговать торгую торгу торговал deal dealt dealt 1 1 (торговать)заключен";
     private String dig = "копать копаю копа копал dig dug dug 1 1 откопан";
     private String draw = "рисовать рисую рису рисовал draw drew drawn 1 1 нарисован";
-    private String dream = "мечтать мечтаю мечта мечтал dream dreamt dreamt 1 1 выдуман(";//!
-    private String drink = "пить пью пь пил drink drank drunk 1 1 пьян";//!
+    private String dream = "мечтать мечтаю мечта мечтал dream dreamt dreamt 1 1 выдуман("; //!
+    private String drink = "пить пью пь пил drink drank drunk 1 1 пьян"; //!
     private String drive = "вести веду вед вел drive drove driven 3 1 проведен";
     private String dwell = "обитать обитаю обита обитал dwell dwelt dwelt 1 1 (страдательное)обитать";
 
@@ -61,14 +62,14 @@ public class IrVerbWords implements Words {
     //private String eat = "есть ем ед ел eat ate eaten /*may be 5*/ 1 1 съеден";
 
     //f
-    private String fall = "падать падаю пада упал fall fell fallen 1 1 пал(";//!
+    private String fall = "падать падаю пада упал fall fell fallen 1 1 пал("; //!
     private String feed = "кормить кормлю корм кормил feed fed fed 2 1 накормлен";
-    private String feel = "чувствовать чувствую чувству чувствовал feel felt felt 1 1 почувствован(";//!
+    private String feel = "чувствовать чувствую чувству чувствовал feel felt felt 1 1 почувствован("; //!
     private String find = "находить нахожу наход находил find found found 2 1 найден";
     private String fight = "драться дерусь дерe драл fight fought fought 4 1 побит";
     private String flee = "спасаться спасаюсь спасае спасал flee fled fled 4 1 спасен";
     private String fling = "кидать кидаю кида кидал fling flung flung 1 1 кинут";
-    private String fly = "летать лечу лет летел fly flew flown 2 1 лечен(летать)";//бяка! в страдательном
+    private String fly = "летать лечу лет летел fly flew flown 2 1 лечен(летать)"; //бяка! в страдательном
     private String forbit = "запрещать запрещаю запреща запрещал forbit forbade forbidden 1 1 запрещен";
     private String forget = "забывать забываю забыва забыл forget forgot forgotten 1 1 забыт";
     private String forgive = "прощать прощаю проща простил forgive forgave forgiven 1 1 прощен";
@@ -130,7 +131,7 @@ public class IrVerbWords implements Words {
 
     //r
     private String read = "читать читаю чита читал read read read 1 1 прочитан";
-    private String ride = "ездить езжу езд ездил ride rode ridden 2 1 объезжен(";//!
+    private String ride = "ездить езжу езд ездил ride rode ridden 2 1 объезжен("; //!
     private String ring = "звонить звоню звон звонил ring rang rung 2 1 звенел";
     private String rise = "подниматься поднимаюсь поднимае поднял rise rose risen 4 1 поднят";
     private String run = "бежать бегу беж бежал run ran run 2 1 (бежать)пройден";
@@ -139,14 +140,14 @@ public class IrVerbWords implements Words {
     private String say = "говорить говорю говор говорил say said said 2 1 сказан";
     private String saw = "пилить пилю пил пилил saw sawed sawn 1 1 распилен";
     private String see = "видеть вижу вид видел see saw seen 2 1 увиден";
-    private String seek = "искать исчу исч искал seek sought sought 1 1 найден(искать)";//!
+    private String seek = "искать исчу исч искал seek sought sought 1 1 найден(искать)"; //!
     private String sell = "продавать продаю прода продал pay sold sold 1 1 продан";
     private String send = "посылать посылаю посыла послал send sent sent 1 1 послан";
     private String set = "помещать помещаю помеща помещал set set set 1 1 помещен";
     private String shake = "трясти трясу тряс тряс shake shook shaken 3 1 потрясен";
     private String shed = "проливать проливаю пролива проливал shed shed shed 1 1 пролит";
     private String shine = "сиять сияю сия сиял shine shone shone 1 1 (сиять)освещен";
-    private String shoot = "стрелять стреляю стреля стрелял shoot shot shot 1 1 стрелян(";//!
+    private String shoot = "стрелять стреляю стреля стрелял shoot shot shot 1 1 стрелян("; //!
     private String show = "показывать показываю показыва показал show showed shown 1 1 показан";
     private String shrink = "сморщиваться морщусь морщи морщился shrink shrank shrunk 4 1 сморщен";
     private String shut = "закрывать закрываю закрыва закрывал shut shut shut 1 1 закрыт";
@@ -158,7 +159,7 @@ public class IrVerbWords implements Words {
     private String smell = "нюхать нюхаю нюха нюхал smell smelt smelt 1 1 пахнет";
     private String sow = "сеять сею се сеял sow sowed sonw 1 1 посеян";
     private String speak = "говорить говорю говор говорил speak spoke spoken 2 1 сказан";
-    private String speed = "спешить спешу спеш спешил speed sped sped 2 1 спешен";//в жопу все=(
+    private String speed = "спешить спешу спеш спешил speed sped sped 2 1 спешен"; //в жопу все=(
     //private String spell = "читать или писать по буквам - надо думать";
     private String spend = "тратить трачу трат тратил spend spent spent 2 1 потрачен";
 
@@ -169,7 +170,7 @@ public class IrVerbWords implements Words {
     private String spoil = "портить порчу порт портил spoil spoilt spoilt 2 1 испорчен";
     private String spread = "распространять распространяю распространя распространил spread spread spread 1 1 распространен";
     private String spring = "прыгать прыгаю прыга прыгал spring sprang sprung 1 1 подброшен(прыгать)"; //don't like that
-    private String stand = "стоять стою сто стоял stand stood stood 2 1 (страдательный)стоять";//
+    private String stand = "стоять стою сто стоял stand stood stood 2 1 (страдательный)стоять"; //
     private String steal = "красть краду крад крал steal stole stolen 1 1 украден";
     private String stick = "приклеивать приклеиваю приклеива приклеил stick stuck stuck 1 1 приклеен";
     private String sting = "жалить жалю жал жалил sting stung stung 2 1 ужален";
@@ -177,8 +178,8 @@ public class IrVerbWords implements Words {
     private String strive = "стремить стремлюсь стреми стремил strive strove striven 4 1 устремлен";
     private String swear = "клясться клянусь кляне клял swear swore sworn 4 1 заклят(клясться)";
     private String sweep = "мести мету мет мел sweep swept swept 3 1 подметен";
-    private String swell = "опухать опухаю опуха опух swell swelled swollen 1 1 опух(";//!
-    private String swim = "плавать плаваю плава плавал swim swam swum 1 1 приплыл(плавать)";//it's holy shit
+    private String swell = "опухать опухаю опуха опух swell swelled swollen 1 1 опух("; //!
+    private String swim = "плавать плаваю плава плавал swim swam swum 1 1 приплыл(плавать)"; //it's holy shit
     private String swing = "качаться качаюсь качае качал swing swung swung 4 1 раскачен";
 
     //t
@@ -186,16 +187,16 @@ public class IrVerbWords implements Words {
     private String tear = "рвать рву рв рвал tear tore torn 3 1 порван";
     private String teach = "учить учу уч учил teach taught taught 2 1 обучен";
     private String tell = "рассказывать рассказываю рассказыва рассказывал tell told told 1 1 рассказан";
-    private String think = "думать думаю дума думал think thought thought 1 1 обдуман(";//
+    private String think = "думать думаю дума думал think thought thought 1 1 обдуман(";
     private String aThrow = "бросать бросаю броса бросал throw threw thrown 1 1 брошен";
-    private String tread = "ступать ступаю ступа ступал tread trod trodden 1 1 наступлен(ступать)";//убейте меня не больно, этот страдательный залог
+    private String tread = "ступать ступаю ступа ступал tread trod trodden 1 1 наступлен(ступать)"; //убейте меня не больно, этот страдательный залог
 
     //u
     private String understand = "понимать понимаю понима понял understand understood understood 1 1 понят";
     //w
     private String wake = "будить бужу буд будил wake woke woken 2 1 разбужен";
     private String wear = "носить  ношу нос носил wear wore worn 2 1 поношен";
-    private String weep = "плакать плачу плач плакал weep wept wept 1 1 оплакан(";//!
+    private String weep = "плакать плачу плач плакал weep wept wept 1 1 оплакан("; //!
     private String win = "побеждать побеждаю побежда победил win won won 1 1 побежден";
     private String wind = "виться вьюсь вье вился wind wound wound 4 1 обвит";
     private String write = "писать пишу пиш писал write wrote written 1 1 написан";
@@ -204,6 +205,7 @@ public class IrVerbWords implements Words {
     //
 
     //загоняет все переменные в массив, для удобства взятия рандомной строки. 137 глаголов ~_~
+    // move this shit to javadoc)
     private String[] words = {arise,  spoil, stand, stick, sting, sweep, swing, teach, tell, understand, wake, win, wind,
             bear, aBear, become, bind, bite, begin, blow, aBreak, bring, burst, cast, aCatch,
             choose, come, creep, cost, aDo, draw, dream, drink, drive, fall, feel, find, fight, fly, forbit, forget,
@@ -216,24 +218,32 @@ public class IrVerbWords implements Words {
             speak, spit, spin, split, spread, spring, steal, strike, strive, swear, swell, swim, take, tear, think,
             aThrow, tread, wear, weep, write};
 
-    //this getter take random word from array and split string on array for trainer and other rules of the trainer
-    public String[] getWords(){
+    /**
+     * This getter take random word from array and split string on array for trainer and other rules of the trainer.
+     * @return Array of words
+     */
+    public final String[] getWords() {
         Random rand = new Random();
-        String[] e = words[rand.nextInt(words.length)].split(" ");
-        return e;
+        return words[rand.nextInt(words.length)].split(" ");
     }
 
-    //new features for take concrete word - soon I'll take getter all irVerbs with number of string for concreteGetter
-    public String[] getWords(int i){
-        String[] e = words[i].split(" ");
-        return e;
+    /**
+     * New features for take concrete word - soon I'll take getter all irVerbs with number of string for concreteGetter.
+     * Rename i please. It assumes no sense.
+     * @param i ??
+     * @return ??
+     */
+    public final String[] getWords(final int i) {
+        return words[i].split(" ");
     }
-
-    //for number of string ~_~
-    public static void main(String[] args){
+    /**
+     * for number of string ~_~ - WAT.
+     * @param args ??
+     */
+    public static void main(final String[] args) {
         IrVerbWords v = new IrVerbWords();
         int i = 0;
-        for(String e : v.words){
+        for (String e : v.words) {
             System.out.println(i++ + " :" + e);
         }
     }
