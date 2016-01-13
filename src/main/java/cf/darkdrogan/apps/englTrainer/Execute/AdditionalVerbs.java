@@ -6,8 +6,11 @@ import cf.darkdrogan.apps.englTrainer.Variables;
  * Created by drogan on 05.12.15.
  */
 
-//This class give another additional verb, for exapmle do, be, have
-public class AdditionalVerbs implements Variables {
+//This class give another additional verb, for example do, be, have
+class AdditionalVerbs implements Variables {
+    /**
+     * returning word.
+     */
     private static String word;
 
     //getter for have
