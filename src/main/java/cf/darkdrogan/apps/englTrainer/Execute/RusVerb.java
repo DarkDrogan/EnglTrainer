@@ -305,4 +305,8 @@ public final class RusVerb implements Variables {
             }
         }
     }
+
+    public static RusVerb getRusVerb() {
+        return new RusVerb();
+    }
 }

@@ -8,8 +8,10 @@ import java.util.Random;
 public class IrVerbWords implements Words {
 
 //Array of the irregular verbs, may be changed to SQL or XML||JSon list for parsing
-    /*
+
+    /**
     * private String VERB = "rusInfinitive iDo rootDo rootDid firstVerb secondVerb typeWord RegularOrIrregular rusFormOf-be-verb+ed";
+     * @see cf.darkdrogan.apps.englTrainer.Trainer.WordsParser
     */
     //a
     private String arise = "поднимать поднимаю поднима поднимал arise arose arisen 1 1 поднят";

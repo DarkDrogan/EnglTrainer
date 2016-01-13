@@ -18,7 +18,7 @@ public final class Prenoun {
     /**
      * No magic numbers.
      */
-    private final int size = 7;
+    private final static int size = 7;
     /**
      * ??
      */

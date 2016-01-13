@@ -5,16 +5,14 @@ import cf.darkdrogan.apps.englTrainer.Variables;
 import org.junit.*;
 
 import static org.junit.Assert.*;
-/**
- * Created by Drogan on 07.01.2016.
- */
+
 public class TestRusVerb implements Variables {
     RusVerb verb;
     String[] words;
 
     @Before
     public void startTest(){
-        verb = new RusVerb();
+        verb = RusVerb.getRusVerb();
         words = new IrVerbWords().getWords(17);
     }
 
