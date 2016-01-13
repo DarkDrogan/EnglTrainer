@@ -3,11 +3,8 @@ package cf.darkdrogan.apps.englTrainer.Execute;
 import cf.darkdrogan.apps.englTrainer.Variables;
 
 /**
- * Created by drogan on 05.12.15.
+ * This class give another additional verb, for example do, be, have.
  */
-
-//This class give another additional verb, for example do, be, have
-
 public final class AdditionalVerbs implements Variables {
     /**
     * If this class is only a utility class,
