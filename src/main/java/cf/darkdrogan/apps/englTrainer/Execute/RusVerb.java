@@ -5,7 +5,10 @@ import cf.darkdrogan.apps.englTrainer.Variables;
 /**
  * Created by drogan on 30.11.15.
  */
-public class RusVerb implements Variables{
+public final class RusVerb implements Variables{
+    /**
+     * If this class is only a utility class, you should make the class final and define a private constructor:
+     */
     private static String word;
 
     public static String getVerb(String[] words, int time, int prenoun, int form, int voice){

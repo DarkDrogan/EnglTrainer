@@ -7,7 +7,14 @@ import cf.darkdrogan.apps.englTrainer.Variables;
  */
 
 //This class give another additional verb, for example do, be, have
-class AdditionalVerbs implements Variables {
+
+public final class AdditionalVerbs implements Variables {
+    /**
+     * If this class is only a utility class, you should make the class final and define a private constructor:
+     */
+    private AdditionalVerbs() {
+    }
+
     /**
      * returning word.
      */

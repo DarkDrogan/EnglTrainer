@@ -6,7 +6,13 @@ import cf.darkdrogan.apps.englTrainer.Variables;
  * Created by drogan on 05.12.15.
  */
 
-public class EnglVerb implements Variables {
+public final class EnglVerb implements Variables {
+    /**
+     * If this class is only a utility class, you should make the class final and define a private constructor:
+     */
+    private EnglVerb() {
+    }
+
     static String word;
     //getter english verb
     public static String getVerb(String[] words, int time, int prenoun, int form, int voice){

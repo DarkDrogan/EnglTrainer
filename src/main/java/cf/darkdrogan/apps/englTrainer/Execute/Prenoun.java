@@ -3,7 +3,12 @@ package cf.darkdrogan.apps.englTrainer.Execute;
 /**
  * Created by drogan on 05.12.15.
  */
-public class Prenoun {
+public final class Prenoun {
+    /**
+     * If this class is only a utility class, you should make the class final and define a private constructor:
+     */
+    private Prenoun() {
+    }
 
     //создаем массив, который инициализируется местоимениями в конструкторе
     private static String[] prenoun = new String[7];
