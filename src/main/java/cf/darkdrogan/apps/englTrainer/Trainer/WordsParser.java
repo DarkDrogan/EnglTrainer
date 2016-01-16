@@ -14,19 +14,19 @@ import java.io.IOException;
  * Parser for InVerbs
  */
 public class WordsParser {
-    File file;
+    String output;
 
-    public final String jsonParse() throws FileNotFoundException{
-        String output = "";
-        FileReader reader  = new FileReader(file);
+    public String jsonParse(String pFilename) throws FileNotFoundException{
+        ClassLoader loader = this.getClass().getClassLoader();
+        File parsing_file = new File(loader.getResource(pFilename).getFile());
         JSONParser parser = new JSONParser();
 
-        try {
+        try (FileReader reader = new FileReader(parsing_file)) {
             JSONObject topObject = (JSONObject) parser.parse(reader);
             JSONArray array = (JSONArray)topObject.get("bear");
             output = array.get(2).toString();
-            //print full json
-            System.out.println(topObject.toJSONString());
+//            print full json
+//            System.out.println(topObject.toJSONString());
         } catch (ParseException e){
             e.getPosition();
         } catch (IOException e){
@@ -35,20 +35,9 @@ public class WordsParser {
         return output;
     }
 
-    public WordsParser(final String pFilename) {
-        ClassLoader loader = this.getClass().getClassLoader();
-        try {
-            this.file = new File(loader.getResource(pFilename).getFile());
-        }catch (NullPointerException e){
-            e.printStackTrace();
-        }
-
+    /**
+     * Empty constructor.
+     */
+    public WordsParser() {
     }
-
-    public static void main(String[] args) throws FileNotFoundException{
-
-        WordsParser parser = new WordsParser("ru_words.json");
-        System.out.println(parser.jsonParse());
-    }
-
 }
