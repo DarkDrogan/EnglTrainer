@@ -61,7 +61,12 @@ public final class ExecutiveClass {
                 System.out.println(aWords[i]);
             }
             checkOutStr = reader.readLine();
-            checkOut(checkOutStr, aWords[++i]);
+            // !!! REWRITE SOON
+            if(checkOut(checkOutStr, aWords[++i])){
+                System.out.println("Welldone!");
+            }else{
+                System.out.println("What the fck! It's " + aWords[i]);
+            }
         }
     }
     //May be we need change logic for check with array right answers, cuz
@@ -75,16 +80,13 @@ public final class ExecutiveClass {
      * @param word ??
      */
     // NOTICE: parameters should be final!
-    // this need replace to boolean
-    protected void checkOut(String checkWord, String word) {
-        String s = word;
+    private boolean checkOut(String checkWord, String word) {
         checkWord = simplifyWord(checkWord);
         word = simplifyWord(word);
         if (word.equalsIgnoreCase(checkWord)) {
-            System.out.println("That's right! Hell yeah!");
-        } else {
-            System.out.println("You need learn it better! \n " + s);
+            return true;
         }
+        return false;
     }
 
     private String simplifyWord(String testWord){
