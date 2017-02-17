@@ -16,11 +16,13 @@ public class SimpleTrainingModul implements TrainingModul, ConditionConstant {
     private String word;
     private String mainWord;
     private static String[] completeWords;
+    private EnglishVerbs englishVerbs;
 
     public SimpleTrainingModul(){}
 
     SimpleTrainingModul(String[] words){
         rand = new Random();
+        englishVerbs = EnglishVerbs.getEnglVerb();
         int i = 0;
         completeWords = new String[18];
         for(int time = 0; time < 3; time++){
@@ -71,21 +73,21 @@ public class SimpleTrainingModul implements TrainingModul, ConditionConstant {
         if(form == ASK){
             if(time == PRESENT || time == PAST)
                 word = AdditionalVerbs.getDo(time, prenoun, form, ACTIVE) + " " + Prenoun.getEnglPrenoun(prenoun) +
-                        " " + EnglishVerbs.getVerb(words, PRESENT, prenoun, form, ConditionConstant.ACTIVE) + "?";
+                        " " + englishVerbs.getVerb(words, PRESENT, prenoun, form, ConditionConstant.ACTIVE) + "?";
             if(time == FUTURE)
-                word = "Will " + Prenoun.getEnglPrenoun(prenoun) + " " + EnglishVerbs.getVerb(words,  PAST, prenoun, form,  ACTIVE) + "?";
+                word = "Will " + Prenoun.getEnglPrenoun(prenoun) + " " + englishVerbs.getVerb(words,  PAST, prenoun, form,  ACTIVE) + "?";
         }
         if(form == ANSWER){
             if(time == PRESENT || time == PAST)
-                word = Prenoun.getEnglPrenoun(prenoun) + " " + EnglishVerbs.getVerb(words, time, prenoun, form, ACTIVE);
+                word = Prenoun.getEnglPrenoun(prenoun) + " " + englishVerbs.getVerb(words, time, prenoun, form, ACTIVE);
             if(time == FUTURE)
-                word = Prenoun.getEnglPrenoun(prenoun) + " will " + EnglishVerbs.getVerb(words, time, prenoun, form, ACTIVE);
+                word = Prenoun.getEnglPrenoun(prenoun) + " will " + englishVerbs.getVerb(words, time, prenoun, form, ACTIVE);
         }
         if(form == NEGATIVE){
             if(time == PRESENT || time == PAST)
-                word = Prenoun.getEnglPrenoun(prenoun) + " " + AdditionalVerbs.getDo(time, prenoun, form, ACTIVE) + " " + EnglishVerbs.getVerb(words, (byte)1, prenoun, form, (byte)0);
+                word = Prenoun.getEnglPrenoun(prenoun) + " " + AdditionalVerbs.getDo(time, prenoun, form, ACTIVE) + " " + englishVerbs.getVerb(words, (byte)1, prenoun, form, (byte)0);
             if(time == FUTURE)
-                word = Prenoun.getEnglPrenoun(prenoun) + " will not " + EnglishVerbs.getVerb(words,  PAST, prenoun, form,  ACTIVE);
+                word = Prenoun.getEnglPrenoun(prenoun) + " will not " + englishVerbs.getVerb(words,  PAST, prenoun, form,  ACTIVE);
         }
         return word;
     }

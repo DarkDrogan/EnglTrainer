@@ -33,7 +33,7 @@ public final class EnglishVerbs implements ConditionConstant {
      * @param voice voice
      * @return  right form of have
      */
-    public static String getVerb(final String[] words, final int time, final int prenoun, final int form, final int voice) {
+    public String getVerb(final String[] words, final int time, final int prenoun, final int form, final int voice) {
         if (voice == ACTIVE) {
             //check out to irregular verb
             if (time == PAST && (words[4] + "ed").equals(words[5]) && form == ANSWER) {

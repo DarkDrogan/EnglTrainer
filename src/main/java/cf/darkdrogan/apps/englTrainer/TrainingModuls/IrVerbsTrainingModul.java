@@ -18,12 +18,14 @@ public class IrVerbsTrainingModul implements TrainingModul, ConditionConstant {
     private String phrase;
     private String rus1, rus2, rus3, engl1, engl2, engl3;
     private String[] completeWords;
+    private EnglishVerbs englishVerbs;
 
     //for free start with .getTrainer()
     public IrVerbsTrainingModul(){}
 
     IrVerbsTrainingModul(String[] words){
         Random rand = new Random();
+        englishVerbs = EnglishVerbs.getEnglVerb();
         //array for 5 sets of words
         completeWords = new String[30];
         phrase = "";
@@ -33,12 +35,12 @@ public class IrVerbsTrainingModul implements TrainingModul, ConditionConstant {
             prenoun2 = (byte) rand.nextInt(7);
             prenoun3 = (byte) rand.nextInt(7);
             byte timePas = (byte) rand.nextInt(2);
-            engl1 = Prenoun.getEnglPrenoun(prenoun1) + " " + EnglishVerbs.getVerb(words, PRESENT, prenoun1,
+            engl1 = Prenoun.getEnglPrenoun(prenoun1) + " " + englishVerbs.getVerb(words, PRESENT, prenoun1,
                     ANSWER, ACTIVE) + ".";
-            engl2 = Prenoun.getEnglPrenoun(prenoun2) + " " + EnglishVerbs.getVerb(words, PAST, prenoun2,
+            engl2 = Prenoun.getEnglPrenoun(prenoun2) + " " + englishVerbs.getVerb(words, PAST, prenoun2,
                     ANSWER, ACTIVE) + ".";
             engl3 = Prenoun.getEnglPrenoun(prenoun3) + " " + AdditionalVerbs.getHave(PRESENT, prenoun3,
-                    ANSWER, PASSIVE) + " " + EnglishVerbs.getVerb(words, timePas, prenoun3, ANSWER, PASSIVE);
+                    ANSWER, PASSIVE) + " " + englishVerbs.getVerb(words, timePas, prenoun3, ANSWER, PASSIVE);
             rus1 = Prenoun.getRusPrenoun(prenoun1) + " " + RussianVerbs.getVerb(words, PRESENT, prenoun1,
                     ANSWER, ACTIVE) + ".";
             rus2 = Prenoun.getRusPrenoun(prenoun2) + " " + RussianVerbs.getVerb(words, PAST, prenoun2,

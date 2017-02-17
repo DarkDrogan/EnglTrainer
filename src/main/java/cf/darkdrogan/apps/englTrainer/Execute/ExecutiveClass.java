@@ -100,7 +100,7 @@ public final class ExecutiveClass {
      * @param pPhrase Phrase
      * @return full phrase
      */
-    protected String fullPhrase(final String pPhrase) {
+    private String fullPhrase(final String pPhrase) {
         String phrase = pPhrase;
         do {
             if (phrase.contains("\'s")) {
@@ -133,7 +133,7 @@ public final class ExecutiveClass {
      * @return shuffle words
      */
     // NOTICE: parameters should be final!
-    protected String[] shuffleMethod(final String[] words) {
+    private String[] shuffleMethod(final String[] words) {
         //direct init of x is redundant:
         //This inspection points out the cases where a variable value is never used after its assignment, i.e.:  
         //- the variable never gets read after assignment OR
