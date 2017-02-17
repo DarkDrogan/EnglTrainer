@@ -1,13 +1,12 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
-import cf.darkdrogan.apps.englTrainer.Execute.AdditionalVerbs;
-import cf.darkdrogan.apps.englTrainer.Variables;
+import cf.darkdrogan.apps.englTrainer.ConditionConstant;
 import org.junit.*;
 import static org.junit.Assert.*;
 /**
  * Created by Drogan on 03.01.2016.
  */
-public class TestAdditionalVerbs implements Variables {
+public class TestAdditionalVerbs implements ConditionConstant {
     AdditionalVerbs addVerb;
 
     @Before

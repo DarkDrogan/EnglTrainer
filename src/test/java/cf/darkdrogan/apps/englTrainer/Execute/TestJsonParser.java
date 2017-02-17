@@ -1,6 +1,6 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
-import cf.darkdrogan.apps.englTrainer.Trainer.WordsParser;
+import cf.darkdrogan.apps.englTrainer.TrainingModuls.WordsParser;
 import org.junit.*;
 import java.io.FileNotFoundException;
 import static org.junit.Assert.*;

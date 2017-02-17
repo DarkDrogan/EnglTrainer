@@ -1,18 +1,18 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
+import cf.darkdrogan.apps.englTrainer.ConditionConstant;
 import cf.darkdrogan.apps.englTrainer.StorageForWords.IrVerbWords;
-import cf.darkdrogan.apps.englTrainer.Variables;
 import org.junit.*;
 
 import static org.junit.Assert.*;
 
-public class TestRusVerb implements Variables {
-    RusVerb verb;
+public class TestRusVerb implements ConditionConstant {
+    RussianVerbs verb;
     String[] words;
 
     @Before
     public void startTest(){
-        verb = RusVerb.getRusVerb();
+        verb = RussianVerbs.getRusVerb();
         words = new IrVerbWords().getWords(17);
     }
 

@@ -1,6 +1,6 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
-import cf.darkdrogan.apps.englTrainer.Trainer.SimpleTrainer;
+import cf.darkdrogan.apps.englTrainer.TrainingModuls.SimpleTrainingModul;
 import cf.darkdrogan.apps.englTrainer.StorageForWords.Words;
 import cf.darkdrogan.apps.englTrainer.StorageForWords.IrVerbWords;
 import org.junit.*;
@@ -18,7 +18,7 @@ public class TestExecutiveClass {
     @Before
     public void startTest(){
         aWords = new IrVerbWords().getWords();
-        exClass  = ExecutiveClass.getExec();
+        exClass  = ExecutiveClass.getExecutiveClass();
     }
 
     @After
@@ -32,7 +32,7 @@ public class TestExecutiveClass {
     // or do getter and change on private
     public void testGetCompliteWords(){
         takerWords = new IrVerbWords();
-        exClass.getCompleteWords(new SimpleTrainer().getTrainer(takerWords.getWords()));
+        exClass.getCompleteWords(new SimpleTrainingModul().getTrainer(takerWords.getWords()));
         assertNotNull(exClass.getaWords());
     }
 

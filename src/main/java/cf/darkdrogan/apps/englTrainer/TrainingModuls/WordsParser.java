@@ -1,4 +1,4 @@
-package cf.darkdrogan.apps.englTrainer.Trainer;
+package cf.darkdrogan.apps.englTrainer.TrainingModuls;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -18,6 +18,7 @@ public class WordsParser {
 
     public String jsonParse(String pFilename) throws FileNotFoundException{
         ClassLoader loader = this.getClass().getClassLoader();
+        System.out.println(loader.getResource(pFilename).toString());
         File parsing_file = new File(loader.getResource(pFilename).getFile());
         JSONParser parser = new JSONParser();
 
@@ -25,7 +26,7 @@ public class WordsParser {
             JSONObject topObject = (JSONObject) parser.parse(reader);
             JSONArray array = (JSONArray)topObject.get("bear");
             output = array.get(2).toString();
-//            print full json
+//            print full json - string for test
 //            System.out.println(topObject.toJSONString());
         } catch (ParseException e){
             e.getPosition();

@@ -1,23 +1,29 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
-import cf.darkdrogan.apps.englTrainer.Variables;
+import cf.darkdrogan.apps.englTrainer.ConditionConstant;
 
 /**
  * Class for getting english word.
  */
 
-public final class EnglVerb implements Variables {
-    /**
-     * If this class is only a utility class,
-     * you should make the class final and define a private constructor.
-     */
-    private EnglVerb() {
-    }
+public final class EnglishVerbs implements ConditionConstant {
 
     /**
      * returning word.
      */
     private static String word;
+
+    /**
+     * If this class is only a utility class,
+     * you should make the class final and define a private constructor.
+     */
+    private EnglishVerbs() {
+    }
+
+    public static EnglishVerbs getEnglVerb(){
+        return new EnglishVerbs();
+    }
+
     /**
      * Getter for english word.
      * @param words words array
@@ -95,7 +101,7 @@ public final class EnglVerb implements Variables {
         return word;
     }
 
-    public static EnglVerb getEnglVerb(){
-        return new EnglVerb();
+    private String activeVerb(){
+        return null;
     }
 }

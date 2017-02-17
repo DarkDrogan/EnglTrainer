@@ -11,7 +11,7 @@ public class IrVerbWords implements Words {
 
     /**
     * private String VERB = "rusInfinitive iDo rootDo rootDid firstVerb secondVerb typeWord RegularOrIrregular rusFormOf-be-verb+ed";
-     * @see cf.darkdrogan.apps.englTrainer.Trainer.WordsParser
+     * @see cf.darkdrogan.apps.englTrainer.TrainingModuls.WordsParser
     */
     //a
     private String arise = "поднимать поднимаю поднима поднимал arise arose arisen 1 1 поднят";

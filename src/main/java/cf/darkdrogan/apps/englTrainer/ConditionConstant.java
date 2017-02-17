@@ -3,7 +3,7 @@ package cf.darkdrogan.apps.englTrainer;
 /**
  * Created by drogan on 29.11.15.
  */
-public interface Variables {
+public interface ConditionConstant {
     //constant for time
     int PAST = 0;
     int PRESENT = 1;

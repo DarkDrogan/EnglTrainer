@@ -1,15 +1,15 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
-import cf.darkdrogan.apps.englTrainer.Variables;
+import cf.darkdrogan.apps.englTrainer.ConditionConstant;
 
 /**
  * Javadoc the description of class??
  */
-public final class RusVerb implements Variables {
+public final class RussianVerbs implements ConditionConstant {
     /**
      * If this class is only a utility class you should make the class final and define a private constructor.
      */
-    private RusVerb() {
+    private RussianVerbs() {
     }
 
     /**
@@ -20,7 +20,7 @@ public final class RusVerb implements Variables {
     /**
      * Javadoc that.
      * Notice
-     * @see EnglVerb, for example
+     * @see EnglishVerbs , for example
      * @param words ??
      * @param time ??
      * @param prenoun ??
@@ -44,7 +44,7 @@ public final class RusVerb implements Variables {
     /**
      * Javadoc that.
      * Notice
-     * @see EnglVerb, for example
+     * @see EnglishVerbs , for example
      * @param words ??
      * @param time ??
      * @param prenoun ??
@@ -306,7 +306,7 @@ public final class RusVerb implements Variables {
         }
     }
 
-    public static RusVerb getRusVerb() {
-        return new RusVerb();
+    public static RussianVerbs getRusVerb() {
+        return new RussianVerbs();
     }
 }

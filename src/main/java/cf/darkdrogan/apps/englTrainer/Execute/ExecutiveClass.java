@@ -1,6 +1,6 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
-import cf.darkdrogan.apps.englTrainer.Trainer.Trainer;
+import cf.darkdrogan.apps.englTrainer.TrainingModuls.TrainingModul;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -12,12 +12,6 @@ import java.util.List;
  * It take array words, shuffling, casting to full form answer and check out user's answer.
  */
 public final class ExecutiveClass {
-    /**
-     * If this class is only a utility class,
-     * you should make the class final and define a private constructor.
-     */
-    private ExecutiveClass() {
-    }
 
     /**
      * checkOutStr ??
@@ -25,18 +19,34 @@ public final class ExecutiveClass {
     private static String checkOutStr;
     //temporary for test changed on public. For final - change on private. Or do getter
     //You should decide and name the namr of the variable more clear. And javadoc it.
+
     /**
      * What is it? baby, don't hurt me, don't hurt me, comment.
      */
     private static String[] aWords;
 
-
-    /**This method get array words from trainer and shuffle asks.
-     * Trainer already have words. If we take words from class Words - we'll have different set of words.
-     * @param trainer Trainer
+    /**
+     * If this class is only a utility class,
+     * you should make the class final and define a private constructor.
      */
-    public static void getCompleteWords(final Trainer trainer) {
-        aWords = trainer.getCompleteWords();
+    private ExecutiveClass() {
+    }
+
+
+    /**
+     * Getter for class.
+     * @return ExecutiveClass instance.
+     */
+    public static ExecutiveClass getExecutiveClass() {
+        return new ExecutiveClass();
+    }
+
+    /**This method get array words from trainingModul and shuffle asks.
+     * TrainingModul already have words. If we take words from class Words - we'll have different set of words.
+     * @param trainingModul TrainingModul
+     */
+    public static void getCompleteWords(final TrainingModul trainingModul) {
+        aWords = trainingModul.getCompleteWords();
         shuffleMethod(aWords);
     }
 
@@ -54,9 +64,9 @@ public final class ExecutiveClass {
             checkOut(checkOutStr, aWords[++i]);
         }
     }
-
     //May be we need change logic for check with array right answers, cuz
     // he's - he is and he has - it need pointed (see method fullPhrase too) - yeah! I know, my english is very bad
+
     // I dont't now for the present
 
     /**
@@ -65,25 +75,24 @@ public final class ExecutiveClass {
      * @param word ??
      */
     // NOTICE: parameters should be final!
+    // this need replace to boolean
     protected static void checkOut(String checkWord, String word) {
         String s = word;
-        checkWord = checkWord.replace("?", "").toLowerCase();
-        checkWord = checkWord.replace(".", "");
-        word = word.replace("?", "").toLowerCase();
-        word = word.replace(".", "");
-        if (checkWord.contains("\'")) {
-            checkWord = fullPhrase(checkWord);
-        }
-        if (word.contains("\'")) {
-            word = fullPhrase(word);
-        }
-        checkWord.trim();
-        word.trim();
+        checkWord = simplifyWord(checkWord);
+        word = simplifyWord(word);
         if (word.equalsIgnoreCase(checkWord)) {
             System.out.println("That's right! Hell yeah!");
         } else {
             System.out.println("You need learn it better! \n " + s);
         }
+    }
+
+    private static String simplifyWord(String testWord){
+        testWord = testWord.replace("?", "").toLowerCase().replace(".", "").replace("!", "");
+        if(testWord.contains("\'")){
+            testWord = fullPhrase(testWord).trim();
+        }
+        return testWord;
     }
 
     /**
@@ -155,13 +164,5 @@ public final class ExecutiveClass {
      */
     public static String[] getaWords() {
         return aWords;
-    }
-
-    /**
-     * Getter for class.
-     * @return ExecutiveClass instance.
-     */
-    public static ExecutiveClass getExec() {
-        return new ExecutiveClass();
     }
 }

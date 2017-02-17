@@ -1,11 +1,11 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
-import cf.darkdrogan.apps.englTrainer.Variables;
+import cf.darkdrogan.apps.englTrainer.ConditionConstant;
 
 /**
  * This class give another additional verb, for example do, be, have.
  */
-public final class AdditionalVerbs implements Variables {
+public final class AdditionalVerbs implements ConditionConstant {
     /**
     * If this class is only a utility class,
      * you should make the class final and define a private constructor.
@@ -27,7 +27,7 @@ public final class AdditionalVerbs implements Variables {
      * @return  right form of have
      */
     public static String getHave(final int time, final int prenoun, final int form, final int voice) {
-        //we use "==" because interface Variables have int constants of times, prenoun, and others. See Variables
+        //we use "==" because interface ConditionConstant have int constants of times, prenoun, and others. See ConditionConstant
         if (time == PAST) {
             word = "had";
         }

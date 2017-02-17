@@ -1,16 +1,15 @@
 package cf.darkdrogan.apps.englTrainer.Execute;
 
-import cf.darkdrogan.apps.englTrainer.Execute.EnglVerb;
+import cf.darkdrogan.apps.englTrainer.ConditionConstant;
 import cf.darkdrogan.apps.englTrainer.StorageForWords.IrVerbWords;
-import cf.darkdrogan.apps.englTrainer.Variables;
 import org.junit.*;
 
 import static org.junit.Assert.*;
 /**
  * Created by Drogan on 07.01.2016.
  */
-public class TestEnglVerb implements Variables {
-    EnglVerb verb;
+public class TestEnglVerb implements ConditionConstant {
+    EnglishVerbs verb;
     String[] words;
     String[] wordsDo;
     String[] wordsGo;
@@ -19,7 +18,7 @@ public class TestEnglVerb implements Variables {
 
     @Before
     public void startTest(){
-        verb = EnglVerb.getEnglVerb();
+        verb = EnglishVerbs.getEnglVerb();
         IrVerbWords ir = new IrVerbWords();
         //change again on words = feel. now it's 13 in array
         wordsDo = ir.getWords(29);
