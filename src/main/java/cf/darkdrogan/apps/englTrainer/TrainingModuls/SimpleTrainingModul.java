@@ -18,9 +18,25 @@ public class SimpleTrainingModul implements TrainingModul, ConditionConstant {
     private static String[] completeWords;
     private EnglishVerbs englishVerbs;
 
-    public SimpleTrainingModul(){}
+    private SimpleTrainingModul(){}
 
-    SimpleTrainingModul(String[] words){
+    private SimpleTrainingModul(String[] words){
+        getCompleteWords(words);
+    }
+
+    public static TrainingModul getTrainer(String[] words){
+        return new SimpleTrainingModul(words);
+    }
+
+    public String getMainWord() {
+        return mainWord;
+    }
+
+    public String[] getCompleteWords(){
+        return completeWords;
+    }
+
+    public String[] getCompleteWords(String[] words){
         rand = new Random();
         englishVerbs = EnglishVerbs.getEnglVerb();
         int i = 0;
@@ -35,22 +51,6 @@ public class SimpleTrainingModul implements TrainingModul, ConditionConstant {
                 i++;
             }
         }
-    }
-
-    public TrainingModul getTrainer(String[] words){
-        return new SimpleTrainingModul(words);
-    }
-
-    public String getMainWord() {
-        return mainWord;
-    }
-
-    public String[] getCompleteWords(){
-        return completeWords;
-    }
-
-    public String[] getCompleteWords(String[] words){
-        new SimpleTrainingModul(words);
         return completeWords;
     }
 

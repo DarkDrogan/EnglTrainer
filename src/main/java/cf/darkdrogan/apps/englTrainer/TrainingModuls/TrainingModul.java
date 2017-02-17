@@ -10,6 +10,4 @@ public interface TrainingModul {
     String[] getCompleteWords(String[] words);
     //return phrase for start(if you don't know words)
     String getMainWord();
-    //create new string for words
-    TrainingModul getTrainer(String[] words);
 }

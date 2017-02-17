@@ -28,13 +28,13 @@ public class TestClass{
         executer = ExecutiveClass.getExecutiveClass();
 
         for(int x = 0; x < 3; x++) {
-            trainingModul1 = new SimpleTrainingModul().getTrainer(takerWords.getWords());
+            trainingModul1 = SimpleTrainingModul.getTrainer(takerWords.getWords());
             executer.getCompleteWords(trainingModul1);
             System.out.println(trainingModul1.getMainWord());
             executer.prohod(reader);
         }
 
-        trainingModul1 = new IrVerbsTrainingModul().getTrainer(takerWords.getWords());
+        trainingModul1 = IrVerbsTrainingModul.getTrainer(takerWords.getWords());
         executer.getCompleteWords(trainingModul1);
         System.out.println(trainingModul1.getMainWord());
         executer.prohod(reader);

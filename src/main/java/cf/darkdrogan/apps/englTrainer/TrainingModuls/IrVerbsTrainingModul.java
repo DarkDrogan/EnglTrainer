@@ -21,9 +21,29 @@ public class IrVerbsTrainingModul implements TrainingModul, ConditionConstant {
     private EnglishVerbs englishVerbs;
 
     //for free start with .getTrainer()
-    public IrVerbsTrainingModul(){}
+    private IrVerbsTrainingModul(){}
 
-    IrVerbsTrainingModul(String[] words){
+    private IrVerbsTrainingModul(String[] words){
+            getCompleteWords(words);
+    }
+
+    public static TrainingModul getTrainer(){
+        return new IrVerbsTrainingModul();
+    }
+
+    public static TrainingModul getTrainer(String[] words){
+        return new IrVerbsTrainingModul(words);
+    }
+
+    public String getMainWord(){
+        return phrase;
+    }
+
+    public String[] getCompleteWords(){
+        return completeWords;
+    }
+
+    public String[] getCompleteWords(String[] words){
         Random rand = new Random();
         englishVerbs = EnglishVerbs.getEnglVerb();
         //array for 5 sets of words
@@ -55,22 +75,6 @@ public class IrVerbsTrainingModul implements TrainingModul, ConditionConstant {
             completeWords[i++] = engl3;
             words = new IrVerbWords().getWords();
         }
-    }
-
-    public TrainingModul getTrainer(String[] words){
-        return new IrVerbsTrainingModul(words);
-    }
-
-    public String getMainWord(){
-        return phrase;
-    }
-
-    public String[] getCompleteWords(){
-        return completeWords;
-    }
-
-    public String[] getCompleteWords(String[] words){
-        new IrVerbsTrainingModul(words);
         return completeWords;
     }
 }
