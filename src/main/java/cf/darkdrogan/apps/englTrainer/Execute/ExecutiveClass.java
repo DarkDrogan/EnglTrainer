@@ -16,14 +16,14 @@ public final class ExecutiveClass {
     /**
      * checkOutStr ??
      */
-    private static String checkOutStr;
+    private String checkOutStr;
     //temporary for test changed on public. For final - change on private. Or do getter
     //You should decide and name the namr of the variable more clear. And javadoc it.
 
     /**
      * What is it? baby, don't hurt me, don't hurt me, comment.
      */
-    private static String[] aWords;
+    private String[] aWords;
 
     /**
      * If this class is only a utility class,
@@ -45,7 +45,7 @@ public final class ExecutiveClass {
      * TrainingModul already have words. If we take words from class Words - we'll have different set of words.
      * @param trainingModul TrainingModul
      */
-    public static void getCompleteWords(final TrainingModul trainingModul) {
+    public void getCompleteWords(final TrainingModul trainingModul) {
         aWords = trainingModul.getCompleteWords();
         shuffleMethod(aWords);
     }
@@ -55,7 +55,7 @@ public final class ExecutiveClass {
      * @param reader Reader
      * @throws IOException IOException from reader.
      */
-    public static void prohod(final BufferedReader reader) throws IOException {
+    public void prohod(final BufferedReader reader) throws IOException {
         for (int i = 0; i < aWords.length; i++) {
             if (i % 2 == 0) {
                 System.out.println(aWords[i]);
@@ -76,7 +76,7 @@ public final class ExecutiveClass {
      */
     // NOTICE: parameters should be final!
     // this need replace to boolean
-    protected static void checkOut(String checkWord, String word) {
+    protected void checkOut(String checkWord, String word) {
         String s = word;
         checkWord = simplifyWord(checkWord);
         word = simplifyWord(word);
@@ -87,7 +87,7 @@ public final class ExecutiveClass {
         }
     }
 
-    private static String simplifyWord(String testWord){
+    private String simplifyWord(String testWord){
         testWord = testWord.replace("?", "").toLowerCase().replace(".", "").replace("!", "");
         if(testWord.contains("\'")){
             testWord = fullPhrase(testWord).trim();
@@ -100,7 +100,7 @@ public final class ExecutiveClass {
      * @param pPhrase Phrase
      * @return full phrase
      */
-    protected static String fullPhrase(final String pPhrase) {
+    protected String fullPhrase(final String pPhrase) {
         String phrase = pPhrase;
         do {
             if (phrase.contains("\'s")) {
@@ -133,7 +133,7 @@ public final class ExecutiveClass {
      * @return shuffle words
      */
     // NOTICE: parameters should be final!
-    protected static String[] shuffleMethod(final String[] words) {
+    protected String[] shuffleMethod(final String[] words) {
         //direct init of x is redundant:
         //This inspection points out the cases where a variable value is never used after its assignment, i.e.:  
         //- the variable never gets read after assignment OR
@@ -162,7 +162,7 @@ public final class ExecutiveClass {
      * Words getter.
      * @return aWords.
      */
-    public static String[] getaWords() {
+    public String[] getaWords() {
         return aWords;
     }
 }
