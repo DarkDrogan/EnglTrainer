@@ -15,13 +15,18 @@ public class SimpleTrainingModul implements TrainingModul, ConditionConstant {
     private Random rand;
     private String word;
     private String mainWord;
+    private String[] arrayWords;
     private static String[] completeWords;
     private EnglishVerbs englishVerbs;
 
-    private SimpleTrainingModul(){}
+    //реально нужный конструктор?
+    //private SimpleTrainingModul(){}
 
     private SimpleTrainingModul(String[] words){
-        getCompleteWords(words);
+        arrayWords = words.clone();
+        englishVerbs = EnglishVerbs.getEnglVerb();
+        completeWords = new String[18];
+        getCompleteWords(arrayWords);
     }
 
     public static TrainingModul getTrainer(String[] words){
@@ -37,21 +42,23 @@ public class SimpleTrainingModul implements TrainingModul, ConditionConstant {
     }
 
     public String[] getCompleteWords(String[] words){
+        fillCompleteWordsArray(completeWords);
+        return completeWords;
+    }
+
+    private void fillCompleteWordsArray(String [] completeWords){
         rand = new Random();
-        englishVerbs = EnglishVerbs.getEnglVerb();
         int i = 0;
-        completeWords = new String[18];
         for(int time = 0; time < 3; time++){
             for(int form = 0; form < 3; form++){
                 int xPrenoun = rand.nextInt(7);
-                mainWord = "to " + words[4] + " - " + words[0];
-                completeWords[i] = getRus(words, time, xPrenoun, form);
+                mainWord = "to " + arrayWords[4] + " - " + arrayWords[0];
+                completeWords[i] = getRus(arrayWords, time, xPrenoun, form);
                 i++;
-                completeWords[i] = getEngl(words, time, xPrenoun, form);
+                completeWords[i] = getEngl(arrayWords, time, xPrenoun, form);
                 i++;
             }
         }
-        return completeWords;
     }
 
     //method for take rus phrases

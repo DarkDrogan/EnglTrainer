@@ -3,7 +3,6 @@ package cf.darkdrogan.apps.englTrainer;
 import cf.darkdrogan.apps.englTrainer.Execute.ExecutiveClass;
 import cf.darkdrogan.apps.englTrainer.StorageForWords.IrVerbWords;
 import cf.darkdrogan.apps.englTrainer.StorageForWords.Words;
-import cf.darkdrogan.apps.englTrainer.TrainingModuls.IrVerbsTrainingModul;
 import cf.darkdrogan.apps.englTrainer.TrainingModuls.SimpleTrainingModul;
 import cf.darkdrogan.apps.englTrainer.TrainingModuls.TrainingModul;
 
@@ -33,10 +32,5 @@ public class TestClass{
             System.out.println(trainingModul1.getMainWord());
             executer.prohod(reader);
         }
-
-        trainingModul1 = IrVerbsTrainingModul.getTrainer(takerWords.getWords());
-        executer.getCompleteWords(trainingModul1);
-        System.out.println(trainingModul1.getMainWord());
-        executer.prohod(reader);
     }
 }
