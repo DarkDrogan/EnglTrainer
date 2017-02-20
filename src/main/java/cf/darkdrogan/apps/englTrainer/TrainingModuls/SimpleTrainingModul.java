@@ -42,11 +42,11 @@ public class SimpleTrainingModul implements TrainingModul, ConditionConstant {
     }
 
     public String[] getCompleteWords(String[] words){
-        fillCompleteWordsArray(completeWords);
+        fillCompleteWordsArray();
         return completeWords;
     }
 
-    private void fillCompleteWordsArray(String [] completeWords){
+    private void fillCompleteWordsArray(){
         rand = new Random();
         int i = 0;
         for(int time = 0; time < 3; time++){
@@ -63,7 +63,7 @@ public class SimpleTrainingModul implements TrainingModul, ConditionConstant {
 
     //method for take rus phrases
     private String getRus(String[] words, int time, int prenoun, int form){
-         word = " " + RussianVerbs.getVerb(words, time, prenoun, form, ACTIVE);
+        word = " " + RussianVerbs.getVerb(words, time, prenoun, form, ACTIVE);
         if(form == ASK || form == ANSWER){
             word = Prenoun.getRusPrenoun(prenoun) + word;
             if(form == ASK)
