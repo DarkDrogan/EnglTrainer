@@ -61,7 +61,6 @@ public final class ExecutiveClass {
                 System.out.println(aWords[i]);
             }
             checkOutStr = reader.readLine();
-            // !!! REWRITE SOON
             if(checkOut(checkOutStr, aWords[++i])){
                 System.out.println("Welldone!");
             }else{
@@ -76,25 +75,25 @@ public final class ExecutiveClass {
 
     /**
      * Checks entered string with right string.
-     * @param checkWord Cheking word.
-     * @param word ??
+     * @param checkedPhrase Cheking word.
+     * @param expectedPhrase Expected word
      */
     // NOTICE: parameters should be final!
-    private boolean checkOut(String checkWord, String word) {
-        checkWord = simplifyWord(checkWord);
-        word = simplifyWord(word);
-        if (word.equalsIgnoreCase(checkWord)) {
+    private boolean checkOut(String checkedPhrase, String expectedPhrase) {
+        checkedPhrase = simplifyPhrase(checkedPhrase);
+        expectedPhrase = simplifyPhrase(expectedPhrase);
+        if (expectedPhrase.equalsIgnoreCase(checkedPhrase)) {
             return true;
         }
         return false;
     }
 
-    private String simplifyWord(String testWord){
-        testWord = testWord.replace("?", "").toLowerCase().replace(".", "").replace("!", "");
-        if(testWord.contains("\'")){
-            testWord = fullPhrase(testWord).trim();
+    private String simplifyPhrase(String simplifiedPhrase){
+        simplifiedPhrase = simplifiedPhrase.replace("?", "").toLowerCase().replace(".", "").replace("!", "");
+        if(simplifiedPhrase.contains("\'")){
+            simplifiedPhrase = fullPhrase(simplifiedPhrase).trim();
         }
-        return testWord;
+        return simplifiedPhrase;
     }
 
     /**
